@@ -1,0 +1,5 @@
+when timed
+    do set Videol's Video to video file from 5-second recording using back camera
+
+when untimed.Click
+    do set Videol's Video to video file from recording using back camera
