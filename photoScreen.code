@@ -1,11 +1,10 @@
 when camera.Click
-    do set Image1's Picture to photo
+    do set Imagel's Picture to photo from camera
+    if Voice?'s value
+        do say "Picture Taken" in English (en-US)
 
 when photo library.Click
     do set Image1's Picture to photo from photo library
-
-when describe.Click
-    do set Description Label's Text from photo library to description of image from Image1's Picture
 
 when scan.Click
     do set Description Label's Text to barcode scanned using back camera
