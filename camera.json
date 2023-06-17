@@ -1,23 +1,1549 @@
 {
-    "errors": [
-        {
-            "message": "Oops! The project you are looking for was either deleted or may not be yours.",
-            "locations": [
+    "data": {
+        "project": {
+            "id": "6464b9ef5d287be81bf6f2a0",
+            "apiComponents": {
+                "ApiContainer": {
+                    "id": "ApiContainer",
+                    "children": []
+                }
+            },
+            "assets": {
+                "6464b9ef5d287b4685f6f2a2": {
+                    "externalStorageType": "GCS",
+                    "_id": "6464b9ef5d287b4685f6f2a2",
+                    "size": "9131",
+                    "mimetype": "image/jpeg",
+                    "encoding": "7bit",
+                    "originalname": "images.jpeg",
+                    "backendURI": "/project/6464b9ef5d287be81bf6f2a0/getasset/6464b9ef5d287b4685f6f2a2",
+                    "name": "images.jpeg",
+                    "externalName": "users/6245bd75c235e00572994805/projects/6464b9ef5d287be81bf6f2a0/assets/6464b9ef5d287b4685f6f2a2",
+                    "createdAt": "2022-09-22T12:20:22.388Z",
+                    "updatedAt": "2022-09-22T12:20:22.388Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users%2F6245bd75c235e00572994805%2Fprojects%2F6464b9ef5d287be81bf6f2a0%2Fassets%2F6464b9ef5d287b4685f6f2a2?GoogleAccessId=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com&Expires=1687171945&Signature=U2cOS98gwni%2BJj%2BqZgdu0rgvFw%2FRd9DB7DjFZXq4iIrg9LiNU4hzPAeB0DCjZC4mxC5BiUBXxsj1BhRgOLNtr19TMacuFYvqYOwDLd4SG8cvisFnOYV609QkD0fNiEDq%2BG4bUyLEfzHGf%2BDc9f07ArgWffuWYgqQRikzTxpymKCU5O1sJ0WYPmr%2Fir28OKcmZQ2%2Fdl2JPRcA3ikn5SE9DoDcC87Mg%2FFBXWjyaeGS2dmj1zU1Zwj6ImMB3b8hABvkhjXtXWs%2FbAIeE6pGklvcmempKEyq33wbvxd4TfG4xSxd1xZJY19Fd%2FOR20TYlfuxn4RSafkqz7oYKot6IAejxQ%3D%3D",
+                    "signedUrlExpirationTime": 1687171944792
+                }
+            },
+            "backendUpgradeVersion": 19,
+            "blockly": {
+                "ae38606f-5610-4c7f-bf48-7a35700dc2f3": {
+                    "xml": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"component_event\" id=\"CPHrbnLsnQfn[3v[4#jV\" x=\"91\" y=\"25\"><mutation component_name=\"camera\" component_type=\"Button\" parent_id=\"null\" event_id=\"Click\" was_updated=\"true\"></mutation><field name=\"component_id\">0f424e86-6062-407e-ad22-43b2c6c58799</field><field name=\"event_id\">Click</field><statement name=\"input_do\"><block type=\"setter\" id=\"QOVw`8nmt@-kWsVWd9wR\"><mutation component_name=\"Image1\"></mutation><field name=\"component_id\">c637512e-97ce-4d54-b14a-625da851fb98</field><field name=\"field_name\">Picture</field><value name=\"field_value\"><shadow type=\"asset_get\" id=\"S^U~Pl9Vbml=0qq|8u07\"><mutation previous_asset_name=\"\" previous_asset_value=\"INVALID_ASSET\"></mutation><field name=\"ASSET\">INVALID_ASSET</field></shadow><block type=\"camera_take_photo\" id=\"hi^g/o42Hk$~X9uG~S|0\"></block></value></block></statement></block><block type=\"component_event\" id=\"M*zQ;9jd!~J9aE_h604G\" x=\"93\" y=\"105\"><mutation component_name=\"photo library\" component_type=\"Button\" parent_id=\"null\" event_id=\"Click\" was_updated=\"true\"></mutation><field name=\"component_id\">674a7ce5-a54e-4466-9790-e262cade57f8</field><field name=\"event_id\">Click</field><statement name=\"input_do\"><block type=\"setter\" id=\"R#{muT?L:HiU|{b_.0Or\"><mutation component_name=\"Image1\"></mutation><field name=\"component_id\">c637512e-97ce-4d54-b14a-625da851fb98</field><field name=\"field_name\">Picture</field><value name=\"field_value\"><shadow type=\"asset_get\" id=\"b2_.(A:W@+`9i|MQ,a`4\"><mutation previous_asset_name=\"\" previous_asset_value=\"INVALID_ASSET\"></mutation><field name=\"ASSET\">INVALID_ASSET</field></shadow><block type=\"camera_select_photo\" id=\"x?/;dx)(`12a267[_q|5\"><field name=\"MEDIA_TYPE_OPTIONS\">PHOTO</field></block></value></block></statement></block><block type=\"component_event\" id=\"!LeW2kWL}za^0%n$L9!i\" x=\"94\" y=\"193\"><mutation component_name=\"describe\" component_type=\"Button\" parent_id=\"null\" event_id=\"Click\" was_updated=\"true\"></mutation><field name=\"component_id\">c97c0b69-8703-4151-959e-536f2ec71099</field><field name=\"event_id\">Click</field><statement name=\"input_do\"><block type=\"setter\" id=\"cWLs(@dG}7T,TjBFmsw@\"><mutation component_name=\"Description Label\"></mutation><field name=\"component_id\">c39c2888-9039-4fbd-8fc1-14c555dbd4f9</field><field name=\"field_name\">Text</field><value name=\"field_value\"><shadow type=\"text\" id=\"4~02Y2G4M}a[y9/;$ygD\"><field name=\"TEXT\">Label</field></shadow><block type=\"camera_describe_image\" id=\"o@WI(o^c]N/LRc$b{3DE\"><value name=\"IMAGE\"><shadow type=\"camera_take_photo\" id=\"$dl^9A]H#F`zyMO8Z!V8\"></shadow><block type=\"set_get\" id=\"vH^5;;:4DZ3r.LXOKdWC\"><mutation component_name=\"Image1\"></mutation><field name=\"component_id\">c637512e-97ce-4d54-b14a-625da851fb98</field><field name=\"field_name\">Picture</field></block></value></block></value></block></statement></block><block type=\"component_event\" id=\"DDd!p^/=8OVUM`;S?Tqz\" x=\"97\" y=\"298\"><mutation component_name=\"scan\" component_type=\"Button\" parent_id=\"null\" event_id=\"Click\" was_updated=\"true\"></mutation><field name=\"component_id\">444b11a5-6e26-4aeb-b8c9-b38313df92eb</field><field name=\"event_id\">Click</field><statement name=\"input_do\"><block type=\"setter\" id=\"7#D3:lmXtGt,XKVRGL.7\"><mutation component_name=\"Description Label\"></mutation><field name=\"component_id\">c39c2888-9039-4fbd-8fc1-14c555dbd4f9</field><field name=\"field_name\">Text</field><value name=\"field_value\"><shadow type=\"text\" id=\"XF6iSKR^}3*YWz[gYJ6/\"><field name=\"TEXT\">Label</field></shadow><block type=\"camera_scan_barcode\" id=\"ZRc/-(dF[uH?ODQl-b#G\"><field name=\"CAMERA_OPTIONS\">back</field></block></value></block></statement></block><block type=\"component_event\" id=\"at}u)QRR~B]CFm,Y}9h0\" x=\"106\" y=\"398\"><mutation component_name=\"upload\" component_type=\"Button\" parent_id=\"null\" event_id=\"Click\" was_updated=\"true\"></mutation><field name=\"component_id\">998f4e34-93d2-46d6-81ae-c3898e8bab1a</field><field name=\"event_id\">Click</field><statement name=\"input_do\"><block type=\"setter\" id=\"qwxz/N{ig(Kj-Hiy8]8Z\"><mutation component_name=\"Description Label\"></mutation><field name=\"component_id\">c39c2888-9039-4fbd-8fc1-14c555dbd4f9</field><field name=\"field_name\">Text</field><value name=\"field_value\"><shadow type=\"text\" id=\"ui/dY4j{NdVGw}Eb6!1)\"><field name=\"TEXT\">Label</field></shadow><block type=\"camera_upload_image\" id=\"pmpdJZ@]wX`gYi7xZuBf\"><value name=\"IMAGE\"><shadow type=\"asset_get\" id=\"J_12t3yprsm)O:})/,XO\"><mutation previous_asset_name=\"\" previous_asset_value=\"INVALID_ASSET\"></mutation><field name=\"ASSET\">INVALID_ASSET</field></shadow><block type=\"set_get\" id=\"wUfG+k[4J;iw/__{.!FV\"><mutation component_name=\"Image1\"></mutation><field name=\"component_id\">c637512e-97ce-4d54-b14a-625da851fb98</field><field name=\"field_name\">Picture</field></block></value></block></value></block></statement></block></xml>",
+                    "code": "function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }\n\nfunction _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err); } _next(undefined); }); }; }\n\nfunction getComponentEventList(componentId, event, componentTypeFromGenericBlock) {\n  var _this = this;\n\n  var componentIdOrTypeToEventCode = {\n    '0f424e86-6062-407e-ad22-43b2c6c58799': {\n      'Click': function Click() {\n        return [/*#__PURE__*/function () {\n          var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee4(component) {\n            return regeneratorRuntime.wrap(function _callee4$(_context4) {\n              while (1) {\n                switch (_context4.prev = _context4.next) {\n                  case 0:\n                    _context4.next = 2;\n                    return /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {\n                      var _this2 = this;\n\n                      var setterValue, componentNameOrId;\n                      return regeneratorRuntime.wrap(function _callee3$(_context3) {\n                        while (1) {\n                          switch (_context3.prev = _context3.next) {\n                            case 0:\n                              _context3.next = 2;\n                              return _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {\n                                var cameraComponent;\n                                return regeneratorRuntime.wrap(function _callee2$(_context2) {\n                                  while (1) {\n                                    switch (_context2.prev = _context2.next) {\n                                      case 0:\n                                        cameraComponent = this.getCamera();\n                                        return _context2.abrupt(\"return\", new Promise( /*#__PURE__*/function () {\n                                          var _ref4 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(resolve, reject) {\n                                            return regeneratorRuntime.wrap(function _callee$(_context) {\n                                              while (1) {\n                                                switch (_context.prev = _context.next) {\n                                                  case 0:\n                                                    cameraComponent.TakePhoto(function (resp, cancel, error) {\n                                                      if (error) {\n                                                        reject(error);\n                                                      } else {\n                                                        resolve(resp);\n                                                      }\n                                                    });\n\n                                                  case 1:\n                                                  case \"end\":\n                                                    return _context.stop();\n                                                }\n                                              }\n                                            }, _callee);\n                                          }));\n\n                                          return function (_x2, _x3) {\n                                            return _ref4.apply(this, arguments);\n                                          };\n                                        }().bind(this)));\n\n                                      case 2:\n                                      case \"end\":\n                                        return _context2.stop();\n                                    }\n                                  }\n                                }, _callee2, this);\n                              })).bind(this)();\n\n                            case 2:\n                              setterValue = _context3.sent;\n                              componentNameOrId = \"c637512e-97ce-4d54-b14a-625da851fb98\";\n                              _context3.next = 6;\n                              return new Promise(function (setStateResolve) {\n                                _this2.setState(function (prevState, props) {\n                                  var nextState = this.spreadCopy(prevState);\n                                  this.setProp(componentNameOrId, \"Picture\", setterValue, nextState);\n                                  return nextState;\n                                }, setStateResolve);\n                              });\n\n                            case 6:\n                            case \"end\":\n                              return _context3.stop();\n                          }\n                        }\n                      }, _callee3, this);\n                    })).call(this);\n\n                  case 2:\n                  case \"end\":\n                    return _context4.stop();\n                }\n              }\n            }, _callee4, this);\n          }));\n\n          return function (_x) {\n            return _ref.apply(this, arguments);\n          };\n        }().bind(_this)];\n      }\n    },\n    '674a7ce5-a54e-4466-9790-e262cade57f8': {\n      'Click': function Click() {\n        return [/*#__PURE__*/function () {\n          var _ref5 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee7(component) {\n            return regeneratorRuntime.wrap(function _callee7$(_context7) {\n              while (1) {\n                switch (_context7.prev = _context7.next) {\n                  case 0:\n                    _context7.next = 2;\n                    return /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee6() {\n                      var _this3 = this;\n\n                      var setterValue, componentNameOrId;\n                      return regeneratorRuntime.wrap(function _callee6$(_context6) {\n                        while (1) {\n                          switch (_context6.prev = _context6.next) {\n                            case 0:\n                              _context6.next = 2;\n                              return /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee5() {\n                                var libraryComponent, _yield$libraryCompone, uri, cancelled, error;\n\n                                return regeneratorRuntime.wrap(function _callee5$(_context5) {\n                                  while (1) {\n                                    switch (_context5.prev = _context5.next) {\n                                      case 0:\n                                        libraryComponent = this.getPhotoLibrary();\n                                        _context5.next = 3;\n                                        return libraryComponent.mediaTypes['PHOTO'](function (uri, cancelled, error) {\n                                          return {\n                                            uri: uri,\n                                            cancelled: cancelled,\n                                            error: error\n                                          };\n                                        });\n\n                                      case 3:\n                                        _yield$libraryCompone = _context5.sent;\n                                        uri = _yield$libraryCompone.uri;\n                                        cancelled = _yield$libraryCompone.cancelled;\n                                        error = _yield$libraryCompone.error;\n                                        return _context5.abrupt(\"return\", uri);\n\n                                      case 8:\n                                      case \"end\":\n                                        return _context5.stop();\n                                    }\n                                  }\n                                }, _callee5, this);\n                              })).call(this);\n\n                            case 2:\n                              setterValue = _context6.sent;\n                              componentNameOrId = \"c637512e-97ce-4d54-b14a-625da851fb98\";\n                              _context6.next = 6;\n                              return new Promise(function (setStateResolve) {\n                                _this3.setState(function (prevState, props) {\n                                  var nextState = this.spreadCopy(prevState);\n                                  this.setProp(componentNameOrId, \"Picture\", setterValue, nextState);\n                                  return nextState;\n                                }, setStateResolve);\n                              });\n\n                            case 6:\n                            case \"end\":\n                              return _context6.stop();\n                          }\n                        }\n                      }, _callee6, this);\n                    })).call(this);\n\n                  case 2:\n                  case \"end\":\n                    return _context7.stop();\n                }\n              }\n            }, _callee7, this);\n          }));\n\n          return function (_x4) {\n            return _ref5.apply(this, arguments);\n          };\n        }().bind(_this)];\n      }\n    },\n    'c97c0b69-8703-4151-959e-536f2ec71099': {\n      'Click': function Click() {\n        return [/*#__PURE__*/function () {\n          var _ref8 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee11(component) {\n            return regeneratorRuntime.wrap(function _callee11$(_context11) {\n              while (1) {\n                switch (_context11.prev = _context11.next) {\n                  case 0:\n                    _context11.next = 2;\n                    return /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee10() {\n                      var _this4 = this;\n\n                      var setterValue, componentNameOrId;\n                      return regeneratorRuntime.wrap(function _callee10$(_context10) {\n                        while (1) {\n                          switch (_context10.prev = _context10.next) {\n                            case 0:\n                              _context10.t0 = String;\n                              _context10.next = 3;\n                              return _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee9() {\n                                var recognizerComponent;\n                                return regeneratorRuntime.wrap(function _callee9$(_context9) {\n                                  while (1) {\n                                    switch (_context9.prev = _context9.next) {\n                                      case 0:\n                                        recognizerComponent = this.getImageRecognizer();\n                                        return _context9.abrupt(\"return\", new Promise( /*#__PURE__*/function () {\n                                          var _ref11 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee8(resolve, reject) {\n                                            return regeneratorRuntime.wrap(function _callee8$(_context8) {\n                                              while (1) {\n                                                switch (_context8.prev = _context8.next) {\n                                                  case 0:\n                                                    recognizerComponent.Upload(this.getProp(\"c637512e-97ce-4d54-b14a-625da851fb98\", \"Picture\", typeof nextState === \"undefined\" ? this.state : nextState), function (tags, description, confidence, error) {\n                                                      if (error) {\n                                                        reject(error);\n                                                      } else {\n                                                        resolve(description);\n                                                      }\n                                                    });\n\n                                                  case 1:\n                                                  case \"end\":\n                                                    return _context8.stop();\n                                                }\n                                              }\n                                            }, _callee8, this);\n                                          }));\n\n                                          return function (_x6, _x7) {\n                                            return _ref11.apply(this, arguments);\n                                          };\n                                        }().bind(this)));\n\n                                      case 2:\n                                      case \"end\":\n                                        return _context9.stop();\n                                    }\n                                  }\n                                }, _callee9, this);\n                              })).bind(this)();\n\n                            case 3:\n                              _context10.t1 = _context10.sent;\n                              setterValue = (0, _context10.t0)(_context10.t1);\n                              componentNameOrId = \"c39c2888-9039-4fbd-8fc1-14c555dbd4f9\";\n                              _context10.next = 8;\n                              return new Promise(function (setStateResolve) {\n                                _this4.setState(function (prevState, props) {\n                                  var nextState = this.spreadCopy(prevState);\n                                  this.setCustomProp(componentNameOrId, \"Text\", setterValue, this.getRuntimeCustomSetter(\"Label\", \"Text\"), nextState);\n                                  return nextState;\n                                }, setStateResolve);\n                              });\n\n                            case 8:\n                            case \"end\":\n                              return _context10.stop();\n                          }\n                        }\n                      }, _callee10, this);\n                    })).call(this);\n\n                  case 2:\n                  case \"end\":\n                    return _context11.stop();\n                }\n              }\n            }, _callee11, this);\n          }));\n\n          return function (_x5) {\n            return _ref8.apply(this, arguments);\n          };\n        }().bind(_this)];\n      }\n    },\n    '444b11a5-6e26-4aeb-b8c9-b38313df92eb': {\n      'Click': function Click() {\n        return [/*#__PURE__*/function () {\n          var _ref12 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee15(component) {\n            return regeneratorRuntime.wrap(function _callee15$(_context15) {\n              while (1) {\n                switch (_context15.prev = _context15.next) {\n                  case 0:\n                    _context15.next = 2;\n                    return /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee14() {\n                      var _this5 = this;\n\n                      var setterValue, componentNameOrId;\n                      return regeneratorRuntime.wrap(function _callee14$(_context14) {\n                        while (1) {\n                          switch (_context14.prev = _context14.next) {\n                            case 0:\n                              _context14.t0 = String;\n                              _context14.next = 3;\n                              return _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee13() {\n                                var scannerComponent;\n                                return regeneratorRuntime.wrap(function _callee13$(_context13) {\n                                  while (1) {\n                                    switch (_context13.prev = _context13.next) {\n                                      case 0:\n                                        scannerComponent = this.getBarcodeScanner();\n                                        return _context13.abrupt(\"return\", new Promise( /*#__PURE__*/function () {\n                                          var _ref15 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee12(resolve, reject) {\n                                            return regeneratorRuntime.wrap(function _callee12$(_context12) {\n                                              while (1) {\n                                                switch (_context12.prev = _context12.next) {\n                                                  case 0:\n                                                    scannerComponent.ScanCamera('back', function (value, type, cancelled, error) {\n                                                      if (error) {\n                                                        reject(error);\n                                                      } else {\n                                                        resolve(value);\n                                                      }\n                                                    });\n\n                                                  case 1:\n                                                  case \"end\":\n                                                    return _context12.stop();\n                                                }\n                                              }\n                                            }, _callee12);\n                                          }));\n\n                                          return function (_x9, _x10) {\n                                            return _ref15.apply(this, arguments);\n                                          };\n                                        }().bind(this)));\n\n                                      case 2:\n                                      case \"end\":\n                                        return _context13.stop();\n                                    }\n                                  }\n                                }, _callee13, this);\n                              })).bind(this)();\n\n                            case 3:\n                              _context14.t1 = _context14.sent;\n                              setterValue = (0, _context14.t0)(_context14.t1);\n                              componentNameOrId = \"c39c2888-9039-4fbd-8fc1-14c555dbd4f9\";\n                              _context14.next = 8;\n                              return new Promise(function (setStateResolve) {\n                                _this5.setState(function (prevState, props) {\n                                  var nextState = this.spreadCopy(prevState);\n                                  this.setCustomProp(componentNameOrId, \"Text\", setterValue, this.getRuntimeCustomSetter(\"Label\", \"Text\"), nextState);\n                                  return nextState;\n                                }, setStateResolve);\n                              });\n\n                            case 8:\n                            case \"end\":\n                              return _context14.stop();\n                          }\n                        }\n                      }, _callee14, this);\n                    })).call(this);\n\n                  case 2:\n                  case \"end\":\n                    return _context15.stop();\n                }\n              }\n            }, _callee15, this);\n          }));\n\n          return function (_x8) {\n            return _ref12.apply(this, arguments);\n          };\n        }().bind(_this)];\n      }\n    },\n    '998f4e34-93d2-46d6-81ae-c3898e8bab1a': {\n      'Click': function Click() {\n        return [/*#__PURE__*/function () {\n          var _ref16 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee19(component) {\n            return regeneratorRuntime.wrap(function _callee19$(_context19) {\n              while (1) {\n                switch (_context19.prev = _context19.next) {\n                  case 0:\n                    _context19.next = 2;\n                    return /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee18() {\n                      var _this6 = this;\n\n                      var setterValue, componentNameOrId;\n                      return regeneratorRuntime.wrap(function _callee18$(_context18) {\n                        while (1) {\n                          switch (_context18.prev = _context18.next) {\n                            case 0:\n                              _context18.t0 = String;\n                              _context18.next = 3;\n                              return _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee17() {\n                                var dbComponent;\n                                return regeneratorRuntime.wrap(function _callee17$(_context17) {\n                                  while (1) {\n                                    switch (_context17.prev = _context17.next) {\n                                      case 0:\n                                        dbComponent = this.getCloudinary();\n                                        return _context17.abrupt(\"return\", new Promise( /*#__PURE__*/function () {\n                                          var _ref19 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee16(resolve, reject) {\n                                            return regeneratorRuntime.wrap(function _callee16$(_context16) {\n                                              while (1) {\n                                                switch (_context16.prev = _context16.next) {\n                                                  case 0:\n                                                    dbComponent.UploadParams(this.getProp(\"c637512e-97ce-4d54-b14a-625da851fb98\", \"Picture\", typeof nextState === \"undefined\" ? this.state : nextState), function (error, url) {\n                                                      if (error) {\n                                                        reject(error);\n                                                      } else {\n                                                        resolve(url);\n                                                      }\n                                                    });\n\n                                                  case 1:\n                                                  case \"end\":\n                                                    return _context16.stop();\n                                                }\n                                              }\n                                            }, _callee16, this);\n                                          }));\n\n                                          return function (_x12, _x13) {\n                                            return _ref19.apply(this, arguments);\n                                          };\n                                        }().bind(this)));\n\n                                      case 2:\n                                      case \"end\":\n                                        return _context17.stop();\n                                    }\n                                  }\n                                }, _callee17, this);\n                              })).bind(this)();\n\n                            case 3:\n                              _context18.t1 = _context18.sent;\n                              setterValue = (0, _context18.t0)(_context18.t1);\n                              componentNameOrId = \"c39c2888-9039-4fbd-8fc1-14c555dbd4f9\";\n                              _context18.next = 8;\n                              return new Promise(function (setStateResolve) {\n                                _this6.setState(function (prevState, props) {\n                                  var nextState = this.spreadCopy(prevState);\n                                  this.setCustomProp(componentNameOrId, \"Text\", setterValue, this.getRuntimeCustomSetter(\"Label\", \"Text\"), nextState);\n                                  return nextState;\n                                }, setStateResolve);\n                              });\n\n                            case 8:\n                            case \"end\":\n                              return _context18.stop();\n                          }\n                        }\n                      }, _callee18, this);\n                    })).call(this);\n\n                  case 2:\n                  case \"end\":\n                    return _context19.stop();\n                }\n              }\n            }, _callee19, this);\n          }));\n\n          return function (_x11) {\n            return _ref16.apply(this, arguments);\n          };\n        }().bind(_this)];\n      }\n    }\n  };\n  var eventListFunctionFromGeneric = [];\n\n  if (componentIdOrTypeToEventCode[componentTypeFromGenericBlock] && componentIdOrTypeToEventCode[componentTypeFromGenericBlock][event]) {\n    eventListFunctionFromGeneric = componentIdOrTypeToEventCode[componentTypeFromGenericBlock][event]();\n  }\n\n  var eventListFunctionFromSpecific = [];\n\n  if (componentIdOrTypeToEventCode[componentId] && componentIdOrTypeToEventCode[componentId][event]) {\n    eventListFunctionFromSpecific = componentIdOrTypeToEventCode[componentId][event]();\n  }\n\n  return eventListFunctionFromSpecific.concat(eventListFunctionFromGeneric);\n}\n\nthis.setComponentEventListFunction(getComponentEventList);\n\nfunction convertUndefinedToEmptyString(value) {\n  return value === undefined ? \"\" : value;\n}\n\n(function () {\n  var componentId = \"0f424e86-6062-407e-ad22-43b2c6c58799\";\n  var componentIdToSet = typeof moduleComponentId !== 'undefined' && typeof moduleTypeId !== 'undefined' && false ? moduleComponentId : \"0f424e86-6062-407e-ad22-43b2c6c58799\";\n  this.setPropDirectly(componentIdToSet, 'Click', /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee20() {\n    var _this7 = this;\n\n    return regeneratorRuntime.wrap(function _callee20$(_context20) {\n      while (1) {\n        switch (_context20.prev = _context20.next) {\n          case 0:\n            _context20.next = 2;\n            return Promise.all(getComponentEventList.call(this, componentId, 'Click', 'Button').map(function (eventFxn) {\n              return new Promise(eventFxn.bind(_this7, componentId));\n            }));\n\n          case 2:\n          case \"end\":\n            return _context20.stop();\n        }\n      }\n    }, _callee20, this);\n  })).bind(this), state);\n}).call(this);\n(function () {\n  var componentId = \"674a7ce5-a54e-4466-9790-e262cade57f8\";\n  var componentIdToSet = typeof moduleComponentId !== 'undefined' && typeof moduleTypeId !== 'undefined' && false ? moduleComponentId : \"674a7ce5-a54e-4466-9790-e262cade57f8\";\n  this.setPropDirectly(componentIdToSet, 'Click', /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee21() {\n    var _this8 = this;\n\n    return regeneratorRuntime.wrap(function _callee21$(_context21) {\n      while (1) {\n        switch (_context21.prev = _context21.next) {\n          case 0:\n            _context21.next = 2;\n            return Promise.all(getComponentEventList.call(this, componentId, 'Click', 'Button').map(function (eventFxn) {\n              return new Promise(eventFxn.bind(_this8, componentId));\n            }));\n\n          case 2:\n          case \"end\":\n            return _context21.stop();\n        }\n      }\n    }, _callee21, this);\n  })).bind(this), state);\n}).call(this);\n(function () {\n  var componentId = \"c97c0b69-8703-4151-959e-536f2ec71099\";\n  var componentIdToSet = typeof moduleComponentId !== 'undefined' && typeof moduleTypeId !== 'undefined' && false ? moduleComponentId : \"c97c0b69-8703-4151-959e-536f2ec71099\";\n  this.setPropDirectly(componentIdToSet, 'Click', /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee22() {\n    var _this9 = this;\n\n    return regeneratorRuntime.wrap(function _callee22$(_context22) {\n      while (1) {\n        switch (_context22.prev = _context22.next) {\n          case 0:\n            _context22.next = 2;\n            return Promise.all(getComponentEventList.call(this, componentId, 'Click', 'Button').map(function (eventFxn) {\n              return new Promise(eventFxn.bind(_this9, componentId));\n            }));\n\n          case 2:\n          case \"end\":\n            return _context22.stop();\n        }\n      }\n    }, _callee22, this);\n  })).bind(this), state);\n}).call(this);\n(function () {\n  var componentId = \"444b11a5-6e26-4aeb-b8c9-b38313df92eb\";\n  var componentIdToSet = typeof moduleComponentId !== 'undefined' && typeof moduleTypeId !== 'undefined' && false ? moduleComponentId : \"444b11a5-6e26-4aeb-b8c9-b38313df92eb\";\n  this.setPropDirectly(componentIdToSet, 'Click', /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee23() {\n    var _this10 = this;\n\n    return regeneratorRuntime.wrap(function _callee23$(_context23) {\n      while (1) {\n        switch (_context23.prev = _context23.next) {\n          case 0:\n            _context23.next = 2;\n            return Promise.all(getComponentEventList.call(this, componentId, 'Click', 'Button').map(function (eventFxn) {\n              return new Promise(eventFxn.bind(_this10, componentId));\n            }));\n\n          case 2:\n          case \"end\":\n            return _context23.stop();\n        }\n      }\n    }, _callee23, this);\n  })).bind(this), state);\n}).call(this);\n(function () {\n  var componentId = \"998f4e34-93d2-46d6-81ae-c3898e8bab1a\";\n  var componentIdToSet = typeof moduleComponentId !== 'undefined' && typeof moduleTypeId !== 'undefined' && false ? moduleComponentId : \"998f4e34-93d2-46d6-81ae-c3898e8bab1a\";\n  this.setPropDirectly(componentIdToSet, 'Click', /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee24() {\n    var _this11 = this;\n\n    return regeneratorRuntime.wrap(function _callee24$(_context24) {\n      while (1) {\n        switch (_context24.prev = _context24.next) {\n          case 0:\n            _context24.next = 2;\n            return Promise.all(getComponentEventList.call(this, componentId, 'Click', 'Button').map(function (eventFxn) {\n              return new Promise(eventFxn.bind(_this11, componentId));\n            }));\n\n          case 2:\n          case \"end\":\n            return _context24.stop();\n        }\n      }\n    }, _callee24, this);\n  })).bind(this), state);\n}).call(this);\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVua25vd24iXSwibmFtZXMiOlsiZ2V0Q29tcG9uZW50RXZlbnRMaXN0IiwiY29tcG9uZW50SWQiLCJldmVudCIsImNvbXBvbmVudFR5cGVGcm9tR2VuZXJpY0Jsb2NrIiwiY29tcG9uZW50SWRPclR5cGVUb0V2ZW50Q29kZSIsImNvbXBvbmVudCIsImNhbWVyYUNvbXBvbmVudCIsImdldENhbWVyYSIsIlByb21pc2UiLCJyZXNvbHZlIiwicmVqZWN0IiwiVGFrZVBob3RvIiwicmVzcCIsImNhbmNlbCIsImVycm9yIiwiYmluZCIsInNldHRlclZhbHVlIiwiY29tcG9uZW50TmFtZU9ySWQiLCJzZXRTdGF0ZVJlc29sdmUiLCJzZXRTdGF0ZSIsInByZXZTdGF0ZSIsInByb3BzIiwibmV4dFN0YXRlIiwic3ByZWFkQ29weSIsInNldFByb3AiLCJjYWxsIiwibGlicmFyeUNvbXBvbmVudCIsImdldFBob3RvTGlicmFyeSIsIm1lZGlhVHlwZXMiLCJ1cmkiLCJjYW5jZWxsZWQiLCJTdHJpbmciLCJyZWNvZ25pemVyQ29tcG9uZW50IiwiZ2V0SW1hZ2VSZWNvZ25pemVyIiwiVXBsb2FkIiwiZ2V0UHJvcCIsInN0YXRlIiwidGFncyIsImRlc2NyaXB0aW9uIiwiY29uZmlkZW5jZSIsInNldEN1c3RvbVByb3AiLCJnZXRSdW50aW1lQ3VzdG9tU2V0dGVyIiwic2Nhbm5lckNvbXBvbmVudCIsImdldEJhcmNvZGVTY2FubmVyIiwiU2NhbkNhbWVyYSIsInZhbHVlIiwidHlwZSIsImRiQ29tcG9uZW50IiwiZ2V0Q2xvdWRpbmFyeSIsIlVwbG9hZFBhcmFtcyIsInVybCIsImV2ZW50TGlzdEZ1bmN0aW9uRnJvbUdlbmVyaWMiLCJldmVudExpc3RGdW5jdGlvbkZyb21TcGVjaWZpYyIsImNvbmNhdCIsInNldENvbXBvbmVudEV2ZW50TGlzdEZ1bmN0aW9uIiwiY29udmVydFVuZGVmaW5lZFRvRW1wdHlTdHJpbmciLCJ1bmRlZmluZWQiLCJjb21wb25lbnRJZFRvU2V0IiwibW9kdWxlQ29tcG9uZW50SWQiLCJtb2R1bGVUeXBlSWQiLCJzZXRQcm9wRGlyZWN0bHkiLCJhbGwiLCJtYXAiLCJldmVudEZ4biJdLCJtYXBwaW5ncyI6Ijs7OztBQUFBLFNBQVNBLHFCQUFULENBQStCQyxXQUEvQixFQUE0Q0MsS0FBNUMsRUFBbURDLDZCQUFuRCxFQUFrRjtBQUFBOztBQUN4RSxNQUFNQyw0QkFBNEIsR0FBRztBQUNuQyw0Q0FBeUM7QUFBQyxlQUFVO0FBQUEsZUFBTSxDQUFDO0FBQUEsK0ZBQWVDLFNBQWY7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsMkJBRXpELHFFQUFDO0FBQUE7O0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEscUNBQ3NCLHdEQUFDO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUM1QkMsd0NBQUFBLGVBRDRCLEdBQ1YsS0FBS0MsU0FBTCxFQURVO0FBQUEsMEVBRXpCLElBQUlDLE9BQUosQ0FBWTtBQUFBLCtIQUFlQyxPQUFmLEVBQXdCQyxNQUF4QjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQ2pCSixvREFBQUEsZUFBZSxDQUFDSyxTQUFoQixDQUEwQixVQUFTQyxJQUFULEVBQWVDLE1BQWYsRUFBdUJDLEtBQXZCLEVBQThCO0FBQ3RELDBEQUFHQSxLQUFILEVBQVU7QUFDUkosd0RBQUFBLE1BQU0sQ0FBQ0ksS0FBRCxDQUFOO0FBQ0QsdURBRkQsTUFFTztBQUNMTCx3REFBQUEsT0FBTyxDQUFDRyxJQUFELENBQVA7QUFDRDtBQUNGLHFEQU5EOztBQURpQjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTs7QUFBQTtBQUFBO0FBQUE7QUFBQSw0Q0FRakJHLElBUmlCLENBUVosSUFSWSxDQUFaLENBRnlCOztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLCtCQUFELEdBVzlCQSxJQVg4QixDQVd6QixJQVh5QixHQUR0Qjs7QUFBQTtBQUNDQyw4QkFBQUEsV0FERDtBQWFDQyw4QkFBQUEsaUJBYkQsR0FhcUIsc0NB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RTZELEdBQW5FLENBQ2hCLFVBQUFDLFFBQVE7QUFBQSxxQkFBSSxJQUFJdkQsT0FBSixDQUFhdUQsUUFBUSxDQUFDaEQsSUFBVCxDQUFjLE9BQWQsRUFBb0JkLFdBQXBCLENBQWIsQ0FBSjtBQUFBLGFBRFEsQ0FBWixDQURSOztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLE1BR0VjLElBSEYsQ0FHTyxJQUhQLENBREUsRUFJWXFCLEtBSlo7QUFNRCxDQVpMLEVBWU9YLElBWlAsQ0FZWSxJQVpaIiwic291cmNlc0NvbnRlbnQiOlsiZnVuY3Rpb24gZ2V0Q29tcG9uZW50RXZlbnRMaXN0KGNvbXBvbmVudElkLCBldmVudCwgY29tcG9uZW50VHlwZUZyb21HZW5lcmljQmxvY2spIHtcbiAgICAgICAgICBjb25zdCBjb21wb25lbnRJZE9yVHlwZVRvRXZlbnRDb2RlID0ge1xuICAgICAgICAgICAgJzBmNDI0ZTg2LTYwNjItNDA3ZS1hZDIyLTQzYjJjNmM1ODc5OScgOiB7J0NsaWNrJyA6ICgpID0+IFthc3luYyBmdW5jdGlvbihjb21wb25lbnQpIHtcblxuICAgICAgICBhd2FpdCAoYXN5bmMgIGZ1bmN0aW9uKCl7XG4gICAgICAgICAgY29uc3Qgc2V0dGVyVmFsdWUgPSAoYXdhaXQgKGFzeW5jIGZ1bmN0aW9uICgpIHtcbiAgICAgIGxldCBjYW1lcmFDb21wb25lbnQgPSB0aGlzLmdldENhbWVyYSgpO1xuICAgICAgcmV0dXJuIG5ldyBQcm9taXNlKGFzeW5jIGZ1bmN0aW9uKHJlc29sdmUsIHJlamVjdCkge1xuICAgICAgICBjYW1lcmFDb21wb25lbnQuVGFrZVBob3RvKGZ1bmN0aW9uKHJlc3AsIGNhbmNlbCwgZXJyb3IpIHtcbiAgICAgICAgICBpZihlcnJvcikge1xuICAgICAgICAgICAgcmVqZWN0KGVycm9yKTtcbiAgICAgICAgICB9IGVsc2Uge1xuICAgICAgICAgICAgcmVzb2x2ZShyZXNwKTtcbiAgICAgICAgICB9XG4gICAgICAgIH0pO1xuICAgICAgfS5iaW5kKHRoaXMpKTtcbiAgICB9KS5iaW5kKHRoaXMpKCkpO1xuICAgICAgICAgIGNvbnN0IGNvbXBvbmVudE5hbWVPcklkID0gXCJjNjM3NTEyZS05N2NlLTRkNTQtYjE0YS02MjVkYTg1MWZiOThcIjtcblxuICAgIGF3YWl0IChuZXcgUHJvbWlzZSgoc2V0U3RhdGVSZXNvbHZlKSA9PiB7XG4gICAgICB0aGlzLnNldFN0YXRlKGZ1bmN0aW9uKHByZXZTdGF0ZSwgcHJvcHMpIHtcbiAgICAgICAgY29uc3QgbmV4dFN0YXRlID0gdGhpcy5zcHJlYWRDb3B5KHByZXZTdGF0ZSk7XG4gIHRoaXMuc2V0UHJvcChjb21wb25lbnROYW1lT3JJZCwgXCJQaWN0dXJlXCIsIHNldHRlclZhbHVlLCBuZXh0U3RhdGUpO1xuXG4gICAgICAgIHJldHVybiBuZXh0U3RhdGU7XG4gICAgICB9LCBzZXRTdGF0ZVJlc29sdmUpO1xuICAgIH0pKTtcblxuICAgICAgICB9KS5jYWxsKHRoaXMpO1xuXG59LmJpbmQodGhpcyldfSxcbic2NzRhN2NlNS1hNTRlLTQ0NjYtOTc5MC1lMjYyY2FkZTU3ZjgnIDogeydDbGljaycgOiAoKSA9PiBbYXN5bmMgZnVuY3Rpb24oY29tcG9uZW50KSB7XG5cbiAgICAgICAgYXdhaXQgKGFzeW5jICBmdW5jdGlvbigpe1xuICAgICAgICAgIGNvbnN0IHNldHRlclZhbHVlID0gKFxuICAgIGF3YWl0IChhc3luYyBmdW5jdGlvbiAoKSB7XG4gICAgICBjb25zdCBsaWJyYXJ5Q29tcG9uZW50ID0gdGhpcy5nZXRQaG90b0xpYnJhcnkoKTtcbiAgICAgIGNvbnN0IHsgdXJpLCBjYW5jZWxsZWQsIGVycm9yIH0gPSBhd2FpdCBsaWJyYXJ5Q29tcG9uZW50Lm1lZGlhVHlwZXNbJ1BIT1RPJ10oKHVyaSwgY2FuY2VsbGVkLCBlcnJvcikgPT4ge1xuICAgICAgICByZXR1cm4ge1xuICAgICAgICAgIHVyaSxcbiAgICAgICAgICBjYW5jZWxsZWQsXG4gICAgICAgICAgZXJyb3IsXG4gICAgICAgIH07XG4gICAgICB9KTtcbiAgICAgIHJldHVybiB1cmk7XG4gICAgfSkuY2FsbCh0aGlzKVxuICAgICk7XG4gICAgICAgICAgY29uc3QgY29tcG9uZW50TmFtZU9ySWQgPSBcImM2Mzc1MTJlLTk3Y2UtNGQ1NC1iMTRhLTYyNWRhODUxZmI5OFwiO1xuXG4gICAgYXdhaXQgKG5ldyBQcm9taXNlKChzZXRTdGF0ZVJlc29sdmUpID0+IHtcbiAgICAgIHRoaXMuc2V0U3RhdGUoZnVuY3Rpb24ocHJldlN0YXRlLCBwcm9wcykge1xuICAgICAgICBjb25zdCBuZXh0U3RhdGUgPSB0aGlzLnNwcmVhZENvcHkocHJldlN0YXRlKTtcbiAgdGhpcy5zZXRQcm9wKGNvbXBvbmVudE5hbWVPcklkLCBcIlBpY3R1cmVcIiwgc2V0dGVyVmFsdWUsIG5leHRTdGF0ZSk7XG5cbiAgICAgICAgcmV0dXJuIG5leHRTdGF0ZTtcbiAgICAgIH0sIHNldFN0YXRlUmVzb2x2ZSk7XG4gICAgfSkpO1xuXG4gICAgICAgIH0pLmNhbGwodGhpcyk7XG5cbn0uYmluZCh0aGlzKV19LFxuJ2M5N2MwYjY5LTg3MDMtNDE1MS05NTllLTUzNmYyZWM3MTA5OScgOiB7J0NsaWNrJyA6ICgpID0+IFthc3luYyBmdW5jdGlvbihjb21wb25lbnQpIHtcblxuICAgICAgICBhd2FpdCAoYXN5bmMgIGZ1bmN0aW9uKCl7XG4gICAgICAgICAgY29uc3Qgc2V0dGVyVmFsdWUgPSBTdHJpbmcoKGF3YWl0IChhc3luYyBmdW5jdGlvbiAoKSB7XG4gICAgICBsZXQgcmVjb2duaXplckNvbXBvbmVudCA9IHRoaXMuZ2V0SW1hZ2VSZWNvZ25pemVyKCk7XG4gICAgICByZXR1cm4gbmV3IFByb21pc2UoYXN5bmMgZnVuY3Rpb24ocmVzb2x2ZSwgcmVqZWN0KSB7XG4gICAgICAgIHJlY29nbml6ZXJDb21wb25lbnQuVXBsb2FkKHRoaXMuZ2V0UHJvcChcImM2Mzc1MTJlLTk3Y2UtNGQ1NC1iMTRhLTYyNWRhODUxZmI5OFwiLCBcIlBpY3R1cmVcIiwgdHlwZW9mIG5leHRTdGF0ZSA9PT0gXCJ1bmRlZmluZWRcIiA/IHRoaXMuc3RhdGUgOiBuZXh0U3RhdGUpLCBmdW5jdGlvbih0YWdzLCBkZXNjcmlwdGlvbiwgY29uZmlkZW5jZSwgZXJyb3IpIHtcbiAgICAgICAgICBpZihlcnJvcikge1xuICAgICAgICAgICAgcmVqZWN0KGVycm9yKTtcbiAgICAgICAgICB9IGVsc2Uge1xuICAgICAgICAgICAgcmVzb2x2ZShkZXNjcmlwdGlvbik7XG4gICAgICAgICAgfVxuICAgICAgICB9KTtcbiAgICAgIH0uYmluZCh0aGlzKSk7XG4gICAgfSkuYmluZCh0aGlzKSgpKSk7XG4gICAgICAgICAgY29uc3QgY29tcG9uZW50TmFtZU9ySWQgPSBcImMzOWMyODg4LTkwMzktNGZiZC04ZmMxLTE0YzU1NWRiZDRmOVwiO1xuXG4gICAgYXdhaXQgKG5ldyBQcm9taXNlKChzZXRTdGF0ZVJlc29sdmUpID0+IHtcbiAgICAgIHRoaXMuc2V0U3RhdGUoZnVuY3Rpb24ocHJldlN0YXRlLCBwcm9wcykge1xuICAgICAgICBjb25zdCBuZXh0U3RhdGUgPSB0aGlzLnNwcmVhZENvcHkocHJldlN0YXRlKTtcbiAgdGhpcy5zZXRDdXN0b21Qcm9wKGNvbXBvbmVudE5hbWVPcklkLCBcIlRleHRcIiwgc2V0dGVyVmFsdWUsIHRoaXMuZ2V0UnVudGltZUN1c3RvbVNldHRlcihcIkxhYmVsXCIsIFwiVGV4dFwiKSwgbmV4dFN0YXRlKTtcblxuICAgICAgICByZXR1cm4gbmV4dFN0YXRlO1xuICAgICAgfSwgc2V0U3RhdGVSZXNvbHZlKTtcbiAgICB9KSk7XG5cbiAgICAgICAgfSkuY2FsbCh0aGlzKTtcblxufS5iaW5kKHRoaXMpXX0sXG4nNDQ0YjExYTUtNmUyNi00YWViLWI4YzktYjM4MzEzZGY5MmViJyA6IHsnQ2xpY2snIDogKCkgPT4gW2FzeW5jIGZ1bmN0aW9uKGNvbXBvbmVudCkge1xuXG4gICAgICAgIGF3YWl0IChhc3luYyAgZnVuY3Rpb24oKXtcbiAgICAgICAgICBjb25zdCBzZXR0ZXJWYWx1ZSA9IFN0cmluZygoYXdhaXQgKGFzeW5jIGZ1bmN0aW9uICgpIHtcbiAgICAgIGxldCBzY2FubmVyQ29tcG9uZW50ID0gdGhpcy5nZXRCYXJjb2RlU2Nhbm5lcigpO1xuICAgICAgcmV0dXJuIG5ldyBQcm9taXNlKGFzeW5jIGZ1bmN0aW9uKHJlc29sdmUsIHJlamVjdCkge1xuICAgICAgICBzY2FubmVyQ29tcG9uZW50LlNjYW5DYW1lcmEoJ2JhY2snLCBmdW5jdGlvbih2YWx1ZSwgdHlwZSwgY2FuY2VsbGVkLCBlcnJvcikge1xuICAgICAgICAgIGlmKGVycm9yKSB7XG4gICAgICAgICAgICByZWplY3QoZXJyb3IpO1xuICAgICAgICAgIH0gZWxzZSB7XG4gICAgICAgICAgICByZXNvbHZlKHZhbHVlKTtcbiAgICAgICAgICB9XG4gICAgICAgIH0pO1xuICAgICAgfS5iaW5kKHRoaXMpKTtcbiAgICB9KS5iaW5kKHRoaXMpKCkpKTtcbiAgICAgICAgICBjb25zdCBjb21wb25lbnROYW1lT3JJZCA9IFwiYzM5YzI4ODgtOTAzOS00ZmJkLThmYzEtMTRjNTU1ZGJkNGY5XCI7XG5cbiAgICBhd2FpdCAobmV3IFByb21pc2UoKHNldFN0YXRlUmVzb2x2ZSkgPT4ge1xuICAgICAgdGhpcy5zZXRTdGF0ZShmdW5jdGlvbihwcmV2U3RhdGUsIHByb3BzKSB7XG4gICAgICAgIGNvbnN0IG5leHRTdGF0ZSA9IHRoaXMuc3ByZWFkQ29weShwcmV2U3RhdGUpO1xuICB0aGlzLnNldEN1c3RvbVByb3AoY29tcG9uZW50TmFtZU9ySWQsIFwiVGV4dFwiLCBzZXR0ZXJWYWx1ZSwgdGhpcy5nZXRSdW50aW1lQ3VzdG9tU2V0dGVyKFwiTGFiZWxcIiwgXCJUZXh0XCIpLCBuZXh0U3RhdGUpO1xuXG4gICAgICAgIHJldHVybiBuZXh0U3RhdGU7XG4gICAgICB9LCBzZXRTdGF0ZVJlc29sdmUpO1xuICAgIH0pKTtcblxuICAgICAgICB9KS5jYWxsKHRoaXMpO1xuXG59LmJpbmQodGhpcyldfSxcbic5OThmNGUzNC05M2QyLTQ2ZDYtODFhZS1jMzg5OGU4YmFiMWEnIDogeydDbGljaycgOiAoKSA9PiBbYXN5bmMgZnVuY3Rpb24oY29tcG9uZW50KSB7XG5cbiAgICAgICAgYXdhaXQgKGFzeW5jICBmdW5jdGlvbigpe1xuICAgICAgICAgIGNvbnN0IHNldHRlclZhbHVlID0gU3RyaW5nKChhd2FpdCAoYXN5bmMgZnVuY3Rpb24gKCkge1xuICAgICAgbGV0IGRiQ29tcG9uZW50ID0gdGhpcy5nZXRDbG91ZGluYXJ5KCk7XG4gICAgICByZXR1cm4gbmV3IFByb21pc2UoYXN5bmMgZnVuY3Rpb24ocmVzb2x2ZSwgcmVqZWN0KSB7XG4gICAgICAgIGRiQ29tcG9uZW50LlVwbG9hZFBhcmFtcyh0aGlzLmdldFByb3AoXCJjNjM3NTEyZS05N2NlLTRkNTQtYjE0YS02MjVkYTg1MWZiOThcIiwgXCJQaWN0dXJlXCIsIHR5cGVvZiBuZXh0U3RhdGUgPT09IFwidW5kZWZpbmVkXCIgPyB0aGlzLnN0YXRlIDogbmV4dFN0YXRlKSwgZnVuY3Rpb24oZXJyb3IsIHVybCkge1xuICAgICAgICAgIGlmKGVycm9yKSB7XG4gICAgICAgICAgICByZWplY3QoZXJyb3IpO1xuICAgICAgICAgIH0gZWxzZSB7XG4gICAgICAgICAgICByZXNvbHZlKHVybCk7XG4gICAgICAgICAgfVxuICAgICAgICB9KTtcbiAgICAgIH0uYmluZCh0aGlzKSk7XG4gICAgfSkuYmluZCh0aGlzKSgpKSk7XG4gICAgICAgICAgY29uc3QgY29tcG9uZW50TmFtZU9ySWQgPSBcImMzOWMyODg4LTkwMzktNGZiZC04ZmMxLTE0YzU1NWRiZDRmOVwiO1xuXG4gICAgYXdhaXQgKG5ldyBQcm9taXNlKChzZXRTdGF0ZVJlc29sdmUpID0+IHtcbiAgICAgIHRoaXMuc2V0U3RhdGUoZnVuY3Rpb24ocHJldlN0YXRlLCBwcm9wcykge1xuICAgICAgICBjb25zdCBuZXh0U3RhdGUgPSB0aGlzLnNwcmVhZENvcHkocHJldlN0YXRlKTtcbiAgdGhpcy5zZXRDdXN0b21Qcm9wKGNvbXBvbmVudE5hbWVPcklkLCBcIlRleHRcIiwgc2V0dGVyVmFsdWUsIHRoaXMuZ2V0UnVudGltZUN1c3RvbVNldHRlcihcIkxhYmVsXCIsIFwiVGV4dFwiKSwgbmV4dFN0YXRlKTtcblxuICAgICAgICByZXR1cm4gbmV4dFN0YXRlO1xuICAgICAgfSwgc2V0U3RhdGVSZXNvbHZlKTtcbiAgICB9KSk7XG5cbiAgICAgICAgfSkuY2FsbCh0aGlzKTtcblxufS5iaW5kKHRoaXMpXX1cbiAgICAgICAgICB9XG5cbiAgICAgICAgICBsZXQgZXZlbnRMaXN0RnVuY3Rpb25Gcm9tR2VuZXJpYyA9IFtdO1xuICAgICAgICAgIGlmIChjb21wb25lbnRJZE9yVHlwZVRvRXZlbnRDb2RlW2NvbXBvbmVudFR5cGVGcm9tR2VuZXJpY0Jsb2NrXSAmJlxuICAgICAgICAgICAgICBjb21wb25lbnRJZE9yVHlwZVRvRXZlbnRDb2RlW2NvbXBvbmVudFR5cGVGcm9tR2VuZXJpY0Jsb2NrXVtldmVudF0pIHtcbiAgICAgICAgICAgIGV2ZW50TGlzdEZ1bmN0aW9uRnJvbUdlbmVyaWMgPSBjb21wb25lbnRJZE9yVHlwZVRvRXZlbnRDb2RlW2NvbXBvbmVudFR5cGVGcm9tR2VuZXJpY0Jsb2NrXVtldmVudF0oKTtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICBsZXQgZXZlbnRMaXN0RnVuY3Rpb25Gcm9tU3BlY2lmaWMgPSBbXTtcbiAgICAgICAgICBpZiAoY29tcG9uZW50SWRPclR5cGVUb0V2ZW50Q29kZVtjb21wb25lbnRJZF0gJiZcbiAgICAgICAgICAgIGNvbXBvbmVudElkT3JUeXBlVG9FdmVudENvZGVbY29tcG9uZW50SWRdW2V2ZW50XSkge1xuICAgICAgICAgIGV2ZW50TGlzdEZ1bmN0aW9uRnJvbVNwZWNpZmljID0gY29tcG9uZW50SWRPclR5cGVUb0V2ZW50Q29kZVtjb21wb25lbnRJZF1bZXZlbnRdKCk7XG4gICAgICAgIH1cblxuICAgICAgICAgIHJldHVybiBldmVudExpc3RGdW5jdGlvbkZyb21TcGVjaWZpYy5jb25jYXQoZXZlbnRMaXN0RnVuY3Rpb25Gcm9tR2VuZXJpYyk7XG4gICAgICB9XG4gICAgICB0aGlzLnNldENvbXBvbmVudEV2ZW50TGlzdEZ1bmN0aW9uKGdldENvbXBvbmVudEV2ZW50TGlzdCk7XG5cblxuXG5mdW5jdGlvbiBjb252ZXJ0VW5kZWZpbmVkVG9FbXB0eVN0cmluZyh2YWx1ZSkgeyByZXR1cm4gKHZhbHVlID09PSB1bmRlZmluZWQgPyBcIlwiIDogdmFsdWUpOyB9XG5cblxuKGZ1bmN0aW9uKCkge1xuICAgICAgY29uc3QgY29tcG9uZW50SWQgPSBcIjBmNDI0ZTg2LTYwNjItNDA3ZS1hZDIyLTQzYjJjNmM1ODc5OVwiO1xuXG4gICAgICBjb25zdCBjb21wb25lbnRJZFRvU2V0ID0gKHR5cGVvZiBtb2R1bGVDb21wb25lbnRJZCAhPT0gJ3VuZGVmaW5lZCcgJiYgdHlwZW9mIG1vZHVsZVR5cGVJZCAhPT0gJ3VuZGVmaW5lZCcgJiYgZmFsc2UpXG4gICAgICAgID8gbW9kdWxlQ29tcG9uZW50SWQgOiBcIjBmNDI0ZTg2LTYwNjItNDA3ZS1hZDIyLTQzYjJjNmM1ODc5OVwiO1xuXG4gICAgICB0aGlzLnNldFByb3BEaXJlY3RseShjb21wb25lbnRJZFRvU2V0LCAnQ2xpY2snLFxuICAgIGFzeW5jIGZ1bmN0aW9uKCkge1xuICAgICAgYXdhaXQgUHJvbWlzZS5hbGwoKGdldENvbXBvbmVudEV2ZW50TGlzdC5jYWxsKHRoaXMsIGNvbXBvbmVudElkLCAnQ2xpY2snLCAnQnV0dG9uJykpLm1hcChcbiAgICAgICAgZXZlbnRGeG4gPT4gbmV3IFByb21pc2UgKGV2ZW50RnhuLmJpbmQodGhpcywgY29tcG9uZW50SWQsICkpKSlcbiAgICB9LmJpbmQodGhpcyksIHN0YXRlKTtcblxuICAgIH0pLmNhbGwodGhpcyk7XG5cbihmdW5jdGlvbigpIHtcbiAgICAgIGNvbnN0IGNvbXBvbmVudElkID0gXCI2NzRhN2NlNS1hNTRlLTQ0NjYtOTc5MC1lMjYyY2FkZTU3ZjhcIjtcblxuICAgICAgY29uc3QgY29tcG9uZW50SWRUb1NldCA9ICh0eXBlb2YgbW9kdWxlQ29tcG9uZW50SWQgIT09ICd1bmRlZmluZWQnICYmIHR5cGVvZiBtb2R1bGVUeXBlSWQgIT09ICd1bmRlZmluZWQnICYmIGZhbHNlKVxuICAgICAgICA/IG1vZHVsZUNvbXBvbmVudElkIDogXCI2NzRhN2NlNS1hNTRlLTQ0NjYtOTc5MC1lMjYyY2FkZTU3ZjhcIjtcblxuICAgICAgdGhpcy5zZXRQcm9wRGlyZWN0bHkoY29tcG9uZW50SWRUb1NldCwgJ0NsaWNrJyxcbiAgICBhc3luYyBmdW5jdGlvbigpIHtcbiAgICAgIGF3YWl0IFByb21pc2UuYWxsKChnZXRDb21wb25lbnRFdmVudExpc3QuY2FsbCh0aGlzLCBjb21wb25lbnRJZCwgJ0NsaWNrJywgJ0J1dHRvbicpKS5tYXAoXG4gICAgICAgIGV2ZW50RnhuID0+IG5ldyBQcm9taXNlIChldmVudEZ4bi5iaW5kKHRoaXMsIGNvbXBvbmVudElkLCApKSkpXG4gICAgfS5iaW5kKHRoaXMpLCBzdGF0ZSk7XG5cbiAgICB9KS5jYWxsKHRoaXMpO1xuXG4oZnVuY3Rpb24oKSB7XG4gICAgICBjb25zdCBjb21wb25lbnRJZCA9IFwiYzk3YzBiNjktODcwMy00MTUxLTk1OWUtNTM2ZjJlYzcxMDk5XCI7XG5cbiAgICAgIGNvbnN0IGNvbXBvbmVudElkVG9TZXQgPSAodHlwZW9mIG1vZHVsZUNvbXBvbmVudElkICE9PSAndW5kZWZpbmVkJyAmJiB0eXBlb2YgbW9kdWxlVHlwZUlkICE9PSAndW5kZWZpbmVkJyAmJiBmYWxzZSlcbiAgICAgICAgPyBtb2R1bGVDb21wb25lbnRJZCA6IFwiYzk3YzBiNjktODcwMy00MTUxLTk1OWUtNTM2ZjJlYzcxMDk5XCI7XG5cbiAgICAgIHRoaXMuc2V0UHJvcERpcmVjdGx5KGNvbXBvbmVudElkVG9TZXQsICdDbGljaycsXG4gICAgYXN5bmMgZnVuY3Rpb24oKSB7XG4gICAgICBhd2FpdCBQcm9taXNlLmFsbCgoZ2V0Q29tcG9uZW50RXZlbnRMaXN0LmNhbGwodGhpcywgY29tcG9uZW50SWQsICdDbGljaycsICdCdXR0b24nKSkubWFwKFxuICAgICAgICBldmVudEZ4biA9PiBuZXcgUHJvbWlzZSAoZXZlbnRGeG4uYmluZCh0aGlzLCBjb21wb25lbnRJZCwgKSkpKVxuICAgIH0uYmluZCh0aGlzKSwgc3RhdGUpO1xuXG4gICAgfSkuY2FsbCh0aGlzKTtcblxuKGZ1bmN0aW9uKCkge1xuICAgICAgY29uc3QgY29tcG9uZW50SWQgPSBcIjQ0NGIxMWE1LTZlMjYtNGFlYi1iOGM5LWIzODMxM2RmOTJlYlwiO1xuXG4gICAgICBjb25zdCBjb21wb25lbnRJZFRvU2V0ID0gKHR5cGVvZiBtb2R1bGVDb21wb25lbnRJZCAhPT0gJ3VuZGVmaW5lZCcgJiYgdHlwZW9mIG1vZHVsZVR5cGVJZCAhPT0gJ3VuZGVmaW5lZCcgJiYgZmFsc2UpXG4gICAgICAgID8gbW9kdWxlQ29tcG9uZW50SWQgOiBcIjQ0NGIxMWE1LTZlMjYtNGFlYi1iOGM5LWIzODMxM2RmOTJlYlwiO1xuXG4gICAgICB0aGlzLnNldFByb3BEaXJlY3RseShjb21wb25lbnRJZFRvU2V0LCAnQ2xpY2snLFxuICAgIGFzeW5jIGZ1bmN0aW9uKCkge1xuICAgICAgYXdhaXQgUHJvbWlzZS5hbGwoKGdldENvbXBvbmVudEV2ZW50TGlzdC5jYWxsKHRoaXMsIGNvbXBvbmVudElkLCAnQ2xpY2snLCAnQnV0dG9uJykpLm1hcChcbiAgICAgICAgZXZlbnRGeG4gPT4gbmV3IFByb21pc2UgKGV2ZW50RnhuLmJpbmQodGhpcywgY29tcG9uZW50SWQsICkpKSlcbiAgICB9LmJpbmQodGhpcyksIHN0YXRlKTtcblxuICAgIH0pLmNhbGwodGhpcyk7XG5cbihmdW5jdGlvbigpIHtcbiAgICAgIGNvbnN0IGNvbXBvbmVudElkID0gXCI5OThmNGUzNC05M2QyLTQ2ZDYtODFhZS1jMzg5OGU4YmFiMWFcIjtcblxuICAgICAgY29uc3QgY29tcG9uZW50SWRUb1NldCA9ICh0eXBlb2YgbW9kdWxlQ29tcG9uZW50SWQgIT09ICd1bmRlZmluZWQnICYmIHR5cGVvZiBtb2R1bGVUeXBlSWQgIT09ICd1bmRlZmluZWQnICYmIGZhbHNlKVxuICAgICAgICA/IG1vZHVsZUNvbXBvbmVudElkIDogXCI5OThmNGUzNC05M2QyLTQ2ZDYtODFhZS1jMzg5OGU4YmFiMWFcIjtcblxuICAgICAgdGhpcy5zZXRQcm9wRGlyZWN0bHkoY29tcG9uZW50SWRUb1NldCwgJ0NsaWNrJyxcbiAgICBhc3luYyBmdW5jdGlvbigpIHtcbiAgICAgIGF3YWl0IFByb21pc2UuYWxsKChnZXRDb21wb25lbnRFdmVudExpc3QuY2FsbCh0aGlzLCBjb21wb25lbnRJZCwgJ0NsaWNrJywgJ0J1dHRvbicpKS5tYXAoXG4gICAgICAgIGV2ZW50RnhuID0+IG5ldyBQcm9taXNlIChldmVudEZ4bi5iaW5kKHRoaXMsIGNvbXBvbmVudElkLCApKSkpXG4gICAgfS5iaW5kKHRoaXMpLCBzdGF0ZSk7XG5cbiAgICB9KS5jYWxsKHRoaXMpO1xuIl19",
+                    "appVariableDefCode": "\n\n\nfunction convertUndefinedToEmptyString(value) { return (value === undefined ? \"\" : value); }\n\n\n",
+                    "permissions": {
+                        "android": [
+                            "android.permission.CAMERA"
+                        ],
+                        "ios": [
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
+                            },
+                            {
+                                "name": "NSPhotoLibraryUsageDescription",
+                                "label": "Photos",
+                                "hint": "Describe why your app uses photos."
+                            }
+                        ]
+                    }
+                },
+                "89536bbb-e6b8-48c0-8d4b-428d50423ca4": {
+                    "xml": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"component_event\" id=\"kR)MmTOm?ho=z{o`;2dr\" x=\"106\" y=\"92\"><mutation component_name=\"timed\" component_type=\"Button\" parent_id=\"null\" event_id=\"Click\" was_updated=\"true\"></mutation><field name=\"component_id\">bf052e72-47f1-427e-ab4e-b86bbd2431ea</field><field name=\"event_id\">Click</field><statement name=\"input_do\"><block type=\"setter\" id=\"VD#H/RkR)ZE=vVo#$Ooo\"><mutation component_name=\"Video1\"></mutation><field name=\"component_id\">9cc6a884-5555-485f-b167-ab7dcaa5dad4</field><field name=\"field_name\">File</field><value name=\"field_value\"><shadow type=\"asset_get\" id=\"3;IcP4Jo{!7-17$Ido}6\"><mutation previous_asset_name=\"\" previous_asset_value=\"INVALID_ASSET\"></mutation><field name=\"ASSET\">INVALID_ASSET</field></shadow><block type=\"camera_video_record_for_seconds\" id=\"FdVl#(X|p=9sSehe]Tpb\"><field name=\"CAMERA_OPTIONS\">back</field><value name=\"SECONDS\"><shadow type=\"math_number\" id=\"5D]1Sj1Dfg#iYpa{;@qq\"><field name=\"NUM\">5</field></shadow></value></block></value></block></statement></block><block type=\"component_event\" id=\",kgcN=Zbv/`2(1`Cc#^l\" x=\"126\" y=\"210\"><mutation component_name=\"untimed\" component_type=\"Button\" parent_id=\"null\" event_id=\"Click\" was_updated=\"true\"></mutation><field name=\"component_id\">38a667e4-e767-44ce-9c06-be181fdd5460</field><field name=\"event_id\">Click</field><statement name=\"input_do\"><block type=\"setter\" id=\"i8GuuF%~$kMUC^z`t?|Q\"><mutation component_name=\"Video1\"></mutation><field name=\"component_id\">9cc6a884-5555-485f-b167-ab7dcaa5dad4</field><field name=\"field_name\">File</field><value name=\"field_value\"><shadow type=\"asset_get\" id=\"XL.5=U=wiN[[~VxEw24Z\"><mutation previous_asset_name=\"\" previous_asset_value=\"INVALID_ASSET\"></mutation><field name=\"ASSET\">INVALID_ASSET</field></shadow><block type=\"camera_start_video_recording\" id=\"*Z$*9Ph9AUTjak3#K[{c\"><field name=\"CAMERA_OPTIONS\">back</field></block></value></block></statement></block></xml>",
+                    "code": "function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }\n\nfunction _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err); } _next(undefined); }); }; }\n\nfunction getComponentEventList(componentId, event, componentTypeFromGenericBlock) {\n  var _this = this;\n\n  var componentIdOrTypeToEventCode = {\n    'bf052e72-47f1-427e-ab4e-b86bbd2431ea': {\n      'Click': function Click() {\n        return [/*#__PURE__*/function () {\n          var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee4(component) {\n            return regeneratorRuntime.wrap(function _callee4$(_context4) {\n              while (1) {\n                switch (_context4.prev = _context4.next) {\n                  case 0:\n                    _context4.next = 2;\n                    return /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {\n                      var _this2 = this;\n\n                      var setterValue, componentNameOrId;\n                      return regeneratorRuntime.wrap(function _callee3$(_context3) {\n                        while (1) {\n                          switch (_context3.prev = _context3.next) {\n                            case 0:\n                              _context3.next = 2;\n                              return function () {\n                                var _ref3 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2(seconds) {\n                                  var recorderComponent;\n                                  return regeneratorRuntime.wrap(function _callee2$(_context2) {\n                                    while (1) {\n                                      switch (_context2.prev = _context2.next) {\n                                        case 0:\n                                          recorderComponent = this.getVideoRecorder();\n                                          return _context2.abrupt(\"return\", new Promise( /*#__PURE__*/function () {\n                                            var _ref4 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(resolve, reject) {\n                                              return regeneratorRuntime.wrap(function _callee$(_context) {\n                                                while (1) {\n                                                  switch (_context.prev = _context.next) {\n                                                    case 0:\n                                                      recorderComponent.RecordForSecondsWithCamera(seconds, 'back', function (url, error) {\n                                                        if (error) {\n                                                          reject(error);\n                                                        } else {\n                                                          resolve(url);\n                                                        }\n                                                      });\n\n                                                    case 1:\n                                                    case \"end\":\n                                                      return _context.stop();\n                                                  }\n                                                }\n                                              }, _callee);\n                                            }));\n\n                                            return function (_x3, _x4) {\n                                              return _ref4.apply(this, arguments);\n                                            };\n                                          }().bind(this)));\n\n                                        case 2:\n                                        case \"end\":\n                                          return _context2.stop();\n                                      }\n                                    }\n                                  }, _callee2, this);\n                                }));\n\n                                return function (_x2) {\n                                  return _ref3.apply(this, arguments);\n                                };\n                              }().bind(this)(5);\n\n                            case 2:\n                              setterValue = _context3.sent;\n                              componentNameOrId = \"9cc6a884-5555-485f-b167-ab7dcaa5dad4\";\n                              _context3.next = 6;\n                              return new Promise(function (setStateResolve) {\n                                _this2.setState(function (prevState, props) {\n                                  var nextState = this.spreadCopy(prevState);\n                                  this.setProp(componentNameOrId, \"File\", setterValue, nextState);\n                                  return nextState;\n                                }, setStateResolve);\n                              });\n\n                            case 6:\n                            case \"end\":\n                              return _context3.stop();\n                          }\n                        }\n                      }, _callee3, this);\n                    })).call(this);\n\n                  case 2:\n                  case \"end\":\n                    return _context4.stop();\n                }\n              }\n            }, _callee4, this);\n          }));\n\n          return function (_x) {\n            return _ref.apply(this, arguments);\n          };\n        }().bind(_this)];\n      }\n    },\n    '38a667e4-e767-44ce-9c06-be181fdd5460': {\n      'Click': function Click() {\n        return [/*#__PURE__*/function () {\n          var _ref5 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee8(component) {\n            return regeneratorRuntime.wrap(function _callee8$(_context8) {\n              while (1) {\n                switch (_context8.prev = _context8.next) {\n                  case 0:\n                    _context8.next = 2;\n                    return /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee7() {\n                      var _this3 = this;\n\n                      var setterValue, componentNameOrId;\n                      return regeneratorRuntime.wrap(function _callee7$(_context7) {\n                        while (1) {\n                          switch (_context7.prev = _context7.next) {\n                            case 0:\n                              _context7.next = 2;\n                              return function () {\n                                var _ref7 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee6(seconds) {\n                                  var recorderComponent;\n                                  return regeneratorRuntime.wrap(function _callee6$(_context6) {\n                                    while (1) {\n                                      switch (_context6.prev = _context6.next) {\n                                        case 0:\n                                          recorderComponent = this.getVideoRecorder();\n                                          return _context6.abrupt(\"return\", new Promise( /*#__PURE__*/function () {\n                                            var _ref8 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee5(resolve, reject) {\n                                              return regeneratorRuntime.wrap(function _callee5$(_context5) {\n                                                while (1) {\n                                                  switch (_context5.prev = _context5.next) {\n                                                    case 0:\n                                                      recorderComponent.StartRecordingWithCamera('back', function (url, error) {\n                                                        if (error) {\n                                                          reject(error);\n                                                        } else {\n                                                          resolve(url);\n                                                        }\n                                                      });\n\n                                                    case 1:\n                                                    case \"end\":\n                                                      return _context5.stop();\n                                                  }\n                                                }\n                                              }, _callee5);\n                                            }));\n\n                                            return function (_x7, _x8) {\n                                              return _ref8.apply(this, arguments);\n                                            };\n                                          }().bind(this)));\n\n                                        case 2:\n                                        case \"end\":\n                                          return _context6.stop();\n                                      }\n                                    }\n                                  }, _callee6, this);\n                                }));\n\n                                return function (_x6) {\n                                  return _ref7.apply(this, arguments);\n                                };\n                              }().bind(this)();\n\n                            case 2:\n                              setterValue = _context7.sent;\n                              componentNameOrId = \"9cc6a884-5555-485f-b167-ab7dcaa5dad4\";\n                              _context7.next = 6;\n                              return new Promise(function (setStateResolve) {\n                                _this3.setState(function (prevState, props) {\n                                  var nextState = this.spreadCopy(prevState);\n                                  this.setProp(componentNameOrId, \"File\", setterValue, nextState);\n                                  return nextState;\n                                }, setStateResolve);\n                              });\n\n                            case 6:\n                            case \"end\":\n                              return _context7.stop();\n                          }\n                        }\n                      }, _callee7, this);\n                    })).call(this);\n\n                  case 2:\n                  case \"end\":\n                    return _context8.stop();\n                }\n              }\n            }, _callee8, this);\n          }));\n\n          return function (_x5) {\n            return _ref5.apply(this, arguments);\n          };\n        }().bind(_this)];\n      }\n    }\n  };\n  var eventListFunctionFromGeneric = [];\n\n  if (componentIdOrTypeToEventCode[componentTypeFromGenericBlock] && componentIdOrTypeToEventCode[componentTypeFromGenericBlock][event]) {\n    eventListFunctionFromGeneric = componentIdOrTypeToEventCode[componentTypeFromGenericBlock][event]();\n  }\n\n  var eventListFunctionFromSpecific = [];\n\n  if (componentIdOrTypeToEventCode[componentId] && componentIdOrTypeToEventCode[componentId][event]) {\n    eventListFunctionFromSpecific = componentIdOrTypeToEventCode[componentId][event]();\n  }\n\n  return eventListFunctionFromSpecific.concat(eventListFunctionFromGeneric);\n}\n\nthis.setComponentEventListFunction(getComponentEventList);\n\nfunction convertUndefinedToEmptyString(value) {\n  return value === undefined ? \"\" : value;\n}\n\n(function () {\n  var componentId = \"bf052e72-47f1-427e-ab4e-b86bbd2431ea\";\n  var componentIdToSet = typeof moduleComponentId !== 'undefined' && typeof moduleTypeId !== 'undefined' && false ? moduleComponentId : \"bf052e72-47f1-427e-ab4e-b86bbd2431ea\";\n  this.setPropDirectly(componentIdToSet, 'Click', /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee9() {\n    var _this4 = this;\n\n    return regeneratorRuntime.wrap(function _callee9$(_context9) {\n      while (1) {\n        switch (_context9.prev = _context9.next) {\n          case 0:\n            _context9.next = 2;\n            return Promise.all(getComponentEventList.call(this, componentId, 'Click', 'Button').map(function (eventFxn) {\n              return new Promise(eventFxn.bind(_this4, componentId));\n            }));\n\n          case 2:\n          case \"end\":\n            return _context9.stop();\n        }\n      }\n    }, _callee9, this);\n  })).bind(this), state);\n}).call(this);\n(function () {\n  var componentId = \"38a667e4-e767-44ce-9c06-be181fdd5460\";\n  var componentIdToSet = typeof moduleComponentId !== 'undefined' && typeof moduleTypeId !== 'undefined' && false ? moduleComponentId : \"38a667e4-e767-44ce-9c06-be181fdd5460\";\n  this.setPropDirectly(componentIdToSet, 'Click', /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee10() {\n    var _this5 = this;\n\n    return regeneratorRuntime.wrap(function _callee10$(_context10) {\n      while (1) {\n        switch (_context10.prev = _context10.next) {\n          case 0:\n            _context10.next = 2;\n            return Promise.all(getComponentEventList.call(this, componentId, 'Click', 'Button').map(function (eventFxn) {\n              return new Promise(eventFxn.bind(_this5, componentId));\n            }));\n\n          case 2:\n          case \"end\":\n            return _context10.stop();\n        }\n      }\n    }, _callee10, this);\n  })).bind(this), state);\n}).call(this);\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVua25vd24iXSwibmFtZXMiOlsiZ2V0Q29tcG9uZW50RXZlbnRMaXN0IiwiY29tcG9uZW50SWQiLCJldmVudCIsImNvbXBvbmVudFR5cGVGcm9tR2VuZXJpY0Jsb2NrIiwiY29tcG9uZW50SWRPclR5cGVUb0V2ZW50Q29kZSIsImNvbXBvbmVudCIsInNlY29uZHMiLCJyZWNvcmRlckNvbXBvbmVudCIsImdldFZpZGVvUmVjb3JkZXIiLCJQcm9taXNlIiwicmVzb2x2ZSIsInJlamVjdCIsIlJlY29yZEZvclNlY29uZHNXaXRoQ2FtZXJhIiwidXJsIiwiZXJyb3IiLCJiaW5kIiwic2V0dGVyVmFsdWUiLCJjb21wb25lbnROYW1lT3JJZCIsInNldFN0YXRlUmVzb2x2ZSIsInNldFN0YXRlIiwicHJldlN0YXRlIiwicHJvcHMiLCJuZXh0U3RhdGUiLCJzcHJlYWRDb3B5Iiwic2V0UHJvcCIsImNhbGwiLCJTdGFydFJlY29yZGluZ1dpdGhDYW1lcmEiLCJldmVudExpc3RGdW5jdGlvbkZyb21HZW5lcmljIiwiZXZlbnRMaXN0RnVuY3Rpb25Gcm9tU3BlY2lmaWMiLCJjb25jYXQiLCJzZXRDb21wb25lbnRFdmVudExpc3RGdW5jdGlvbiIsImNvbnZlcnRVbmRlZmluZWRUb0VtcHR5U3RyaW5nIiwidmFsdWUiLCJ1bmRlZmluZWQiLCJjb21wb25lbnRJZFRvU2V0IiwibW9kdWxlQ29tcG9uZW50SWQiLCJtb2R1bGVUeXBlSWQiLCJzZXRQcm9wRGlyZWN0bHkiLCJhbGwiLCJtYXAiLCJldmVudEZ4biIsInN0YXRlIl0sIm1hcHBpbmdzIjoiOzs7O0FBQUEsU0FBU0EscUJBQVQsQ0FBK0JDLFdBQS9CLEVBQTRDQyxLQUE1QyxFQUFtREMsNkJBQW5ELEVBQWtGO0FBQUE7O0FBQ3hFLE1BQU1DLDRCQUE0QixHQUFHO0FBQ25DLDRDQUF5QztBQUFDLGVBQVU7QUFBQSxlQUFNLENBQUM7QUFBQSwrRkFBZUMsU0FBZjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSwy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QUFXO0FBQ04sTUFBTXhCLFdBQVcsR0FBRyxzQ0FBcEI7QUFFQSxNQUFNaUMsZ0JBQWdCLEdBQUksT0FBT0MsaUJBQVAsS0FBNkIsV0FBN0IsSUFBNEMsT0FBT0MsWUFBUCxLQUF3QixXQUFwRSxJQUFtRixLQUFwRixHQUNyQkQsaUJBRHFCLEdBQ0Qsc0NBRHhCO0FBR0EsT0FBS0UsZUFBTCxDQUFxQkgsZ0JBQXJCLEVBQXVDLE9BQXZDLEVBQ0Y7QUFBQTs7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsbUJBQ1F6QixPQUFPLENBQUM2QixHQUFSLENBQWF0QyxxQkFBcUIsQ0FBQ3lCLElBQXRCLENBQTJCLElBQTNCLEVBQWlDeEIsV0FBakMsRUFBOEMsT0FBOUMsRUFBdUQsUUFBdkQsQ0FBRCxDQUFtRXNDLEdBQW5FLENBQ2hCLFVBQUFDLFFBQVE7QUFBQSxxQkFBSSxJQUFJL0IsT0FBSixDQUFhK0IsUUFBUSxDQUFDekIsSUFBVCxDQUFjLE1BQWQsRUFBb0JkLFdBQXBCLENBQWIsQ0FBSjtBQUFBLGFBRFEsQ0FBWixDQURSOztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLE1BR0VjLElBSEYsQ0FHTyxJQUhQLENBREUsRUFJWTBCLEtBSlo7QUFNRCxDQVpMLEVBWU9oQixJQVpQLENBWVksSUFaWiIsInNvdXJjZXNDb250ZW50IjpbImZ1bmN0aW9uIGdldENvbXBvbmVudEV2ZW50TGlzdChjb21wb25lbnRJZCwgZXZlbnQsIGNvbXBvbmVudFR5cGVGcm9tR2VuZXJpY0Jsb2NrKSB7XG4gICAgICAgICAgY29uc3QgY29tcG9uZW50SWRPclR5cGVUb0V2ZW50Q29kZSA9IHtcbiAgICAgICAgICAgICdiZjA1MmU3Mi00N2YxLTQyN2UtYWI0ZS1iODZiYmQyNDMxZWEnIDogeydDbGljaycgOiAoKSA9PiBbYXN5bmMgZnVuY3Rpb24oY29tcG9uZW50KSB7XG5cbiAgICAgICAgYXdhaXQgKGFzeW5jICBmdW5jdGlvbigpe1xuICAgICAgICAgIGNvbnN0IHNldHRlclZhbHVlID0gKGF3YWl0IChhc3luYyBmdW5jdGlvbiAoc2Vjb25kcykge1xuICAgICAgbGV0IHJlY29yZGVyQ29tcG9uZW50ID0gdGhpcy5nZXRWaWRlb1JlY29yZGVyKCk7XG4gICAgICByZXR1cm4gbmV3IFByb21pc2UoYXN5bmMgZnVuY3Rpb24ocmVzb2x2ZSwgcmVqZWN0KSB7XG4gICAgICAgIHJlY29yZGVyQ29tcG9uZW50LlJlY29yZEZvclNlY29uZHNXaXRoQ2FtZXJhKHNlY29uZHMsICdiYWNrJywgZnVuY3Rpb24odXJsLCBlcnJvcikge1xuICAgICAgICAgIGlmKGVycm9yKSB7XG4gICAgICAgICAgICByZWplY3QoZXJyb3IpO1xuICAgICAgICAgIH0gZWxzZSB7XG4gICAgICAgICAgICByZXNvbHZlKHVybCk7XG4gICAgICAgICAgfVxuICAgICAgICB9KTtcbiAgICAgIH0uYmluZCh0aGlzKSk7XG4gICAgfSkuYmluZCh0aGlzKSg1KSk7XG4gICAgICAgICAgY29uc3QgY29tcG9uZW50TmFtZU9ySWQgPSBcIjljYzZhODg0LTU1NTUtNDg1Zi1iMTY3LWFiN2RjYWE1ZGFkNFwiO1xuXG4gICAgYXdhaXQgKG5ldyBQcm9taXNlKChzZXRTdGF0ZVJlc29sdmUpID0+IHtcbiAgICAgIHRoaXMuc2V0U3RhdGUoZnVuY3Rpb24ocHJldlN0YXRlLCBwcm9wcykge1xuICAgICAgICBjb25zdCBuZXh0U3RhdGUgPSB0aGlzLnNwcmVhZENvcHkocHJldlN0YXRlKTtcbiAgdGhpcy5zZXRQcm9wKGNvbXBvbmVudE5hbWVPcklkLCBcIkZpbGVcIiwgc2V0dGVyVmFsdWUsIG5leHRTdGF0ZSk7XG5cbiAgICAgICAgcmV0dXJuIG5leHRTdGF0ZTtcbiAgICAgIH0sIHNldFN0YXRlUmVzb2x2ZSk7XG4gICAgfSkpO1xuXG4gICAgICAgIH0pLmNhbGwodGhpcyk7XG5cbn0uYmluZCh0aGlzKV19LFxuJzM4YTY2N2U0LWU3NjctNDRjZS05YzA2LWJlMTgxZmRkNTQ2MCcgOiB7J0NsaWNrJyA6ICgpID0+IFthc3luYyBmdW5jdGlvbihjb21wb25lbnQpIHtcblxuICAgICAgICBhd2FpdCAoYXN5bmMgIGZ1bmN0aW9uKCl7XG4gICAgICAgICAgY29uc3Qgc2V0dGVyVmFsdWUgPSAoYXdhaXQgKGFzeW5jIGZ1bmN0aW9uIChzZWNvbmRzKSB7XG4gICAgICBsZXQgcmVjb3JkZXJDb21wb25lbnQgPSB0aGlzLmdldFZpZGVvUmVjb3JkZXIoKTtcbiAgICAgIHJldHVybiBuZXcgUHJvbWlzZShhc3luYyBmdW5jdGlvbihyZXNvbHZlLCByZWplY3QpIHtcbiAgICAgICAgcmVjb3JkZXJDb21wb25lbnQuU3RhcnRSZWNvcmRpbmdXaXRoQ2FtZXJhKCdiYWNrJywgZnVuY3Rpb24odXJsLCBlcnJvcikge1xuICAgICAgICAgIGlmKGVycm9yKSB7XG4gICAgICAgICAgICByZWplY3QoZXJyb3IpO1xuICAgICAgICAgIH0gZWxzZSB7XG4gICAgICAgICAgICByZXNvbHZlKHVybCk7XG4gICAgICAgICAgfVxuICAgICAgICB9KTtcbiAgICAgIH0uYmluZCh0aGlzKSk7XG4gICAgfSkuYmluZCh0aGlzKSgpKTtcbiAgICAgICAgICBjb25zdCBjb21wb25lbnROYW1lT3JJZCA9IFwiOWNjNmE4ODQtNTU1NS00ODVmLWIxNjctYWI3ZGNhYTVkYWQ0XCI7XG5cbiAgICBhd2FpdCAobmV3IFByb21pc2UoKHNldFN0YXRlUmVzb2x2ZSkgPT4ge1xuICAgICAgdGhpcy5zZXRTdGF0ZShmdW5jdGlvbihwcmV2U3RhdGUsIHByb3BzKSB7XG4gICAgICAgIGNvbnN0IG5leHRTdGF0ZSA9IHRoaXMuc3ByZWFkQ29weShwcmV2U3RhdGUpO1xuICB0aGlzLnNldFByb3AoY29tcG9uZW50TmFtZU9ySWQsIFwiRmlsZVwiLCBzZXR0ZXJWYWx1ZSwgbmV4dFN0YXRlKTtcblxuICAgICAgICByZXR1cm4gbmV4dFN0YXRlO1xuICAgICAgfSwgc2V0U3RhdGVSZXNvbHZlKTtcbiAgICB9KSk7XG5cbiAgICAgICAgfSkuY2FsbCh0aGlzKTtcblxufS5iaW5kKHRoaXMpXX1cbiAgICAgICAgICB9XG5cbiAgICAgICAgICBsZXQgZXZlbnRMaXN0RnVuY3Rpb25Gcm9tR2VuZXJpYyA9IFtdO1xuICAgICAgICAgIGlmIChjb21wb25lbnRJZE9yVHlwZVRvRXZlbnRDb2RlW2NvbXBvbmVudFR5cGVGcm9tR2VuZXJpY0Jsb2NrXSAmJlxuICAgICAgICAgICAgICBjb21wb25lbnRJZE9yVHlwZVRvRXZlbnRDb2RlW2NvbXBvbmVudFR5cGVGcm9tR2VuZXJpY0Jsb2NrXVtldmVudF0pIHtcbiAgICAgICAgICAgIGV2ZW50TGlzdEZ1bmN0aW9uRnJvbUdlbmVyaWMgPSBjb21wb25lbnRJZE9yVHlwZVRvRXZlbnRDb2RlW2NvbXBvbmVudFR5cGVGcm9tR2VuZXJpY0Jsb2NrXVtldmVudF0oKTtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICBsZXQgZXZlbnRMaXN0RnVuY3Rpb25Gcm9tU3BlY2lmaWMgPSBbXTtcbiAgICAgICAgICBpZiAoY29tcG9uZW50SWRPclR5cGVUb0V2ZW50Q29kZVtjb21wb25lbnRJZF0gJiZcbiAgICAgICAgICAgIGNvbXBvbmVudElkT3JUeXBlVG9FdmVudENvZGVbY29tcG9uZW50SWRdW2V2ZW50XSkge1xuICAgICAgICAgIGV2ZW50TGlzdEZ1bmN0aW9uRnJvbVNwZWNpZmljID0gY29tcG9uZW50SWRPclR5cGVUb0V2ZW50Q29kZVtjb21wb25lbnRJZF1bZXZlbnRdKCk7XG4gICAgICAgIH1cblxuICAgICAgICAgIHJldHVybiBldmVudExpc3RGdW5jdGlvbkZyb21TcGVjaWZpYy5jb25jYXQoZXZlbnRMaXN0RnVuY3Rpb25Gcm9tR2VuZXJpYyk7XG4gICAgICB9XG4gICAgICB0aGlzLnNldENvbXBvbmVudEV2ZW50TGlzdEZ1bmN0aW9uKGdldENvbXBvbmVudEV2ZW50TGlzdCk7XG5cblxuXG5mdW5jdGlvbiBjb252ZXJ0VW5kZWZpbmVkVG9FbXB0eVN0cmluZyh2YWx1ZSkgeyByZXR1cm4gKHZhbHVlID09PSB1bmRlZmluZWQgPyBcIlwiIDogdmFsdWUpOyB9XG5cblxuKGZ1bmN0aW9uKCkge1xuICAgICAgY29uc3QgY29tcG9uZW50SWQgPSBcImJmMDUyZTcyLTQ3ZjEtNDI3ZS1hYjRlLWI4NmJiZDI0MzFlYVwiO1xuXG4gICAgICBjb25zdCBjb21wb25lbnRJZFRvU2V0ID0gKHR5cGVvZiBtb2R1bGVDb21wb25lbnRJZCAhPT0gJ3VuZGVmaW5lZCcgJiYgdHlwZW9mIG1vZHVsZVR5cGVJZCAhPT0gJ3VuZGVmaW5lZCcgJiYgZmFsc2UpXG4gICAgICAgID8gbW9kdWxlQ29tcG9uZW50SWQgOiBcImJmMDUyZTcyLTQ3ZjEtNDI3ZS1hYjRlLWI4NmJiZDI0MzFlYVwiO1xuXG4gICAgICB0aGlzLnNldFByb3BEaXJlY3RseShjb21wb25lbnRJZFRvU2V0LCAnQ2xpY2snLFxuICAgIGFzeW5jIGZ1bmN0aW9uKCkge1xuICAgICAgYXdhaXQgUHJvbWlzZS5hbGwoKGdldENvbXBvbmVudEV2ZW50TGlzdC5jYWxsKHRoaXMsIGNvbXBvbmVudElkLCAnQ2xpY2snLCAnQnV0dG9uJykpLm1hcChcbiAgICAgICAgZXZlbnRGeG4gPT4gbmV3IFByb21pc2UgKGV2ZW50RnhuLmJpbmQodGhpcywgY29tcG9uZW50SWQsICkpKSlcbiAgICB9LmJpbmQodGhpcyksIHN0YXRlKTtcblxuICAgIH0pLmNhbGwodGhpcyk7XG5cbihmdW5jdGlvbigpIHtcbiAgICAgIGNvbnN0IGNvbXBvbmVudElkID0gXCIzOGE2NjdlNC1lNzY3LTQ0Y2UtOWMwNi1iZTE4MWZkZDU0NjBcIjtcblxuICAgICAgY29uc3QgY29tcG9uZW50SWRUb1NldCA9ICh0eXBlb2YgbW9kdWxlQ29tcG9uZW50SWQgIT09ICd1bmRlZmluZWQnICYmIHR5cGVvZiBtb2R1bGVUeXBlSWQgIT09ICd1bmRlZmluZWQnICYmIGZhbHNlKVxuICAgICAgICA/IG1vZHVsZUNvbXBvbmVudElkIDogXCIzOGE2NjdlNC1lNzY3LTQ0Y2UtOWMwNi1iZTE4MWZkZDU0NjBcIjtcblxuICAgICAgdGhpcy5zZXRQcm9wRGlyZWN0bHkoY29tcG9uZW50SWRUb1NldCwgJ0NsaWNrJyxcbiAgICBhc3luYyBmdW5jdGlvbigpIHtcbiAgICAgIGF3YWl0IFByb21pc2UuYWxsKChnZXRDb21wb25lbnRFdmVudExpc3QuY2FsbCh0aGlzLCBjb21wb25lbnRJZCwgJ0NsaWNrJywgJ0J1dHRvbicpKS5tYXAoXG4gICAgICAgIGV2ZW50RnhuID0+IG5ldyBQcm9taXNlIChldmVudEZ4bi5iaW5kKHRoaXMsIGNvbXBvbmVudElkLCApKSkpXG4gICAgfS5iaW5kKHRoaXMpLCBzdGF0ZSk7XG5cbiAgICB9KS5jYWxsKHRoaXMpO1xuIl19",
+                    "appVariableDefCode": "\n\n\nfunction convertUndefinedToEmptyString(value) { return (value === undefined ? \"\" : value); }\n\n\n",
+                    "permissions": {
+                        "android": [
+                            "android.permission.CAMERA",
+                            "android.permission.RECORD_AUDIO"
+                        ],
+                        "ios": [
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
+                            },
+                            {
+                                "name": "NSMicrophoneUsageDescription",
+                                "label": "Microphone",
+                                "hint": "Describe why your app uses the microphone."
+                            }
+                        ]
+                    }
+                }
+            },
+            "blocklyStringLength": 93405,
+            "categories": [],
+            "components": {
+                "children": [
+                    {
+                        "type": "Drawer Navigator",
+                        "translatedName": "Drawer Navigator",
+                        "reactType": "DrawerNavigator",
+                        "properties": {
+                            "DrawerPosition": "left",
+                            "TabNavigationOptions": {
+                                "tabBarVisible": true
+                            },
+                            "config": {
+                                "drawerPosition": "left"
+                            },
+                            "navigationOptions": {
+                                "tabBarVisible": true
+                            }
+                        },
+                        "children": [
+                            {
+                                "type": "Screen",
+                                "translatedName": "Screen",
+                                "reactType": "ViewWithProps",
+                                "properties": {
+                                    "Height": "Fill container",
+                                    "Width": "Fill container",
+                                    "Layout": "column",
+                                    "Justification": "center",
+                                    "Alignment": "center",
+                                    "Visible": true,
+                                    "style": {
+                                        "marginTop": 0,
+                                        "marginBottom": 0,
+                                        "marginLeft": 0,
+                                        "marginRight": 0,
+                                        "paddingTop": 0,
+                                        "paddingBottom": 0,
+                                        "paddingLeft": 0,
+                                        "paddingRight": 0,
+                                        "flex": 1,
+                                        "alignSelf": "stretch",
+                                        "flexDirection": "column",
+                                        "justifyContent": "center",
+                                        "alignItems": "center",
+                                        "display": "flex",
+                                        "backgroundColor": "rgba(74, 144, 226, 1)",
+                                        "borderRadius": 20
+                                    },
+                                    "ShowStatusBar": true,
+                                    "StatusBarStyle": "default",
+                                    "TranslucentStatusBar": false,
+                                    "StatusBarColor": "rgba(0,0,0,0.53)",
+                                    "TabNavigationOptions": {
+                                        "tabBarVisible": true
+                                    },
+                                    "ScreenOrientation": "portrait",
+                                    "DesignerHeight": 667,
+                                    "DesignerWidth": 375,
+                                    "ResponsiveWidth": 375,
+                                    "isSimple": true,
+                                    "BackgroundColor": "rgba(74, 144, 226, 1)",
+                                    "BackgroundPicture": "images.jpeg"
+                                },
+                                "children": [
+                                    {
+                                        "type": "Button",
+                                        "translatedName": "Button",
+                                        "properties": {
+                                            "Text": "Upload this image to cloudinary",
+                                            "TextColor": "#FFFFFF",
+                                            "FontSize": 18,
+                                            "BackgroundColor": "#2962FF",
+                                            "Height": 58,
+                                            "Width": 233,
+                                            "Visible": true,
+                                            "X": 73,
+                                            "Y": 494.37500000000006,
+                                            "style": {
+                                                "marginTop": 0,
+                                                "marginBottom": 0,
+                                                "marginLeft": 0,
+                                                "marginRight": 0,
+                                                "paddingTop": 0,
+                                                "paddingBottom": 0,
+                                                "paddingLeft": 0,
+                                                "paddingRight": 0,
+                                                "borderRadius": 75,
+                                                "position": "absolute",
+                                                "left": "16.266666666666666%",
+                                                "top": "71.42053973013493%",
+                                                "height": 58,
+                                                "flex": 0,
+                                                "width": 233,
+                                                "display": "flex",
+                                                "shadowColor": "rgba(255, 255, 255, 1)",
+                                                "scaledShadowOpacity": 100,
+                                                "shadowRadius": 0,
+                                                "shadowOffset": {
+                                                    "width": 0,
+                                                    "height": 0
+                                                }
+                                            },
+                                            "FontBold": false,
+                                            "FontItalic": false,
+                                            "Raised": false,
+                                            "Disabled": false,
+                                            "position": "absolute",
+                                            "edgeOffsets": 494.37500000000006,
+                                            "ParentId": "ae38606f-5610-4c7f-bf48-7a35700dc2f3",
+                                            "Font": "Oswald",
+                                            "RelativeX": 73,
+                                            "RelativeY": 494.37500000000006
+                                        },
+                                        "children": [],
+                                        "id": "998f4e34-93d2-46d6-81ae-c3898e8bab1a",
+                                        "thunkableVersion": 265,
+                                        "name": "upload"
+                                    },
+                                    {
+                                        "type": "Button",
+                                        "translatedName": "Button",
+                                        "properties": {
+                                            "Text": "Scan barcode/QR code",
+                                            "TextColor": "#FFFFFF",
+                                            "FontSize": 18,
+                                            "BackgroundColor": "#2962FF",
+                                            "Height": 39,
+                                            "Width": 233,
+                                            "Visible": true,
+                                            "X": 73,
+                                            "Y": 435.375,
+                                            "style": {
+                                                "marginTop": 0,
+                                                "marginBottom": 0,
+                                                "marginLeft": 0,
+                                                "marginRight": 0,
+                                                "paddingTop": 0,
+                                                "paddingBottom": 0,
+                                                "paddingLeft": 0,
+                                                "paddingRight": 0,
+                                                "borderRadius": 75,
+                                                "position": "absolute",
+                                                "left": "15.2%",
+                                                "top": "67.22263868065967%",
+                                                "height": 39,
+                                                "flex": 0,
+                                                "width": 233,
+                                                "display": "flex",
+                                                "shadowColor": "rgba(255, 255, 255, 1)",
+                                                "scaledShadowOpacity": 100,
+                                                "shadowRadius": 0,
+                                                "shadowOffset": {
+                                                    "width": 0,
+                                                    "height": 0
+                                                }
+                                            },
+                                            "FontBold": false,
+                                            "FontItalic": false,
+                                            "Raised": false,
+                                            "Disabled": false,
+                                            "position": "absolute",
+                                            "edgeOffsets": 435.375,
+                                            "ParentId": "ae38606f-5610-4c7f-bf48-7a35700dc2f3",
+                                            "RelativeX": 73,
+                                            "RelativeY": 435.375
+                                        },
+                                        "children": [],
+                                        "id": "444b11a5-6e26-4aeb-b8c9-b38313df92eb",
+                                        "thunkableVersion": 265,
+                                        "name": "scan"
+                                    },
+                                    {
+                                        "type": "Button",
+                                        "translatedName": "Button",
+                                        "properties": {
+                                            "Text": "Describe this image",
+                                            "TextColor": "#FFFFFF",
+                                            "FontSize": 18,
+                                            "BackgroundColor": "#2962FF",
+                                            "Height": 42,
+                                            "Width": 231,
+                                            "Visible": true,
+                                            "X": 73,
+                                            "Y": 376.78125,
+                                            "style": {
+                                                "marginTop": 0,
+                                                "marginBottom": 0,
+                                                "marginLeft": 0,
+                                                "marginRight": 0,
+                                                "paddingTop": 0,
+                                                "paddingBottom": 0,
+                                                "paddingLeft": 0,
+                                                "paddingRight": 0,
+                                                "borderRadius": 75,
+                                                "position": "absolute",
+                                                "left": "20.8%",
+                                                "top": "61.436469265367315%",
+                                                "height": 42,
+                                                "flex": 0,
+                                                "width": 231,
+                                                "display": "flex",
+                                                "shadowColor": "rgba(255, 255, 255, 1)",
+                                                "scaledShadowOpacity": 100,
+                                                "shadowRadius": 0,
+                                                "shadowOffset": {
+                                                    "width": 0,
+                                                    "height": 0
+                                                }
+                                            },
+                                            "FontBold": false,
+                                            "FontItalic": false,
+                                            "Raised": false,
+                                            "Disabled": false,
+                                            "position": "absolute",
+                                            "edgeOffsets": 376.78125,
+                                            "ParentId": "ae38606f-5610-4c7f-bf48-7a35700dc2f3",
+                                            "RelativeX": 73,
+                                            "RelativeY": 376.78125
+                                        },
+                                        "children": [],
+                                        "id": "c97c0b69-8703-4151-959e-536f2ec71099",
+                                        "thunkableVersion": 265,
+                                        "name": "describe"
+                                    },
+                                    {
+                                        "type": "Label",
+                                        "translatedName": "Label",
+                                        "reactType": "Text",
+                                        "properties": {
+                                            "Text": "Label",
+                                            "FontSize": 18,
+                                            "Height": 101,
+                                            "Width": 375,
+                                            "Visible": true,
+                                            "X": 0,
+                                            "Y": 566,
+                                            "style": {
+                                                "marginTop": 0,
+                                                "marginBottom": 0,
+                                                "marginLeft": 0,
+                                                "marginRight": 0,
+                                                "paddingTop": 0,
+                                                "paddingBottom": 0,
+                                                "paddingLeft": 0,
+                                                "paddingRight": 0,
+                                                "flexWrap": "wrap",
+                                                "position": "absolute",
+                                                "left": "13.333333333333334%",
+                                                "top": "68.48294602698651%",
+                                                "fontSize": 18,
+                                                "height": 101,
+                                                "flex": 0,
+                                                "width": 375,
+                                                "display": "flex",
+                                                "shadowColor": "rgba(255, 255, 255, 1)",
+                                                "scaledShadowOpacity": 100,
+                                                "shadowRadius": 0,
+                                                "shadowOffset": {
+                                                    "width": 0,
+                                                    "height": 0
+                                                }
+                                            },
+                                            "position": "absolute",
+                                            "edgeOffsets": 566,
+                                            "ParentId": "ae38606f-5610-4c7f-bf48-7a35700dc2f3",
+                                            "children": "Label",
+                                            "letterSpacing": 0,
+                                            "textDecorationLine": "none",
+                                            "textDecorationStyle": "solid",
+                                            "textDecorationColor": "rgba(0, 0, 0, 1)",
+                                            "writingDirection": "auto",
+                                            "RelativeX": 0,
+                                            "RelativeY": 566
+                                        },
+                                        "children": [],
+                                        "id": "c39c2888-9039-4fbd-8fc1-14c555dbd4f9",
+                                        "thunkableVersion": 265,
+                                        "name": "Description Label"
+                                    },
+                                    {
+                                        "type": "Button",
+                                        "translatedName": "Button",
+                                        "properties": {
+                                            "Text": "show image from photo library",
+                                            "TextColor": "#FFFFFF",
+                                            "FontSize": 18,
+                                            "BackgroundColor": "#2962FF",
+                                            "Height": 50,
+                                            "Width": 232,
+                                            "Visible": true,
+                                            "X": 73,
+                                            "Y": 313.78125,
+                                            "style": {
+                                                "marginTop": 0,
+                                                "marginBottom": 0,
+                                                "marginLeft": 0,
+                                                "marginRight": 0,
+                                                "paddingTop": 0,
+                                                "paddingBottom": 0,
+                                                "paddingLeft": 0,
+                                                "paddingRight": 0,
+                                                "borderRadius": 75,
+                                                "position": "absolute",
+                                                "left": "14.133333333333333%",
+                                                "top": "45.544415292353825%",
+                                                "height": 50,
+                                                "flex": 0,
+                                                "width": 232,
+                                                "display": "flex",
+                                                "shadowColor": "rgba(255, 255, 255, 1)",
+                                                "scaledShadowOpacity": 100,
+                                                "shadowRadius": 0,
+                                                "shadowOffset": {
+                                                    "width": 0,
+                                                    "height": 0
+                                                }
+                                            },
+                                            "FontBold": false,
+                                            "FontItalic": false,
+                                            "Raised": false,
+                                            "Disabled": false,
+                                            "position": "absolute",
+                                            "edgeOffsets": 313.78125,
+                                            "ParentId": "ae38606f-5610-4c7f-bf48-7a35700dc2f3",
+                                            "RelativeX": 73,
+                                            "RelativeY": 313.78125
+                                        },
+                                        "children": [],
+                                        "id": "674a7ce5-a54e-4466-9790-e262cade57f8",
+                                        "thunkableVersion": 265,
+                                        "name": "photo library"
+                                    },
+                                    {
+                                        "type": "Button",
+                                        "translatedName": "Button",
+                                        "properties": {
+                                            "Text": "show image from camera",
+                                            "TextColor": "#FFFFFF",
+                                            "FontSize": 18,
+                                            "BackgroundColor": "#2962FF",
+                                            "Height": 35,
+                                            "Width": 232,
+                                            "Visible": true,
+                                            "X": 73,
+                                            "Y": 266.78125,
+                                            "style": {
+                                                "marginTop": 0,
+                                                "marginBottom": 0,
+                                                "marginLeft": 0,
+                                                "marginRight": 0,
+                                                "paddingTop": 0,
+                                                "paddingBottom": 0,
+                                                "paddingLeft": 0,
+                                                "paddingRight": 0,
+                                                "borderRadius": 75,
+                                                "position": "absolute",
+                                                "left": "38.13333333333333%",
+                                                "top": "44.34501499250375%",
+                                                "height": 35,
+                                                "flex": 0,
+                                                "width": 232,
+                                                "display": "flex",
+                                                "shadowColor": "rgba(255, 255, 255, 1)",
+                                                "scaledShadowOpacity": 100,
+                                                "shadowRadius": 0,
+                                                "shadowOffset": {
+                                                    "width": 0,
+                                                    "height": 0
+                                                }
+                                            },
+                                            "FontBold": false,
+                                            "FontItalic": false,
+                                            "Raised": false,
+                                            "Disabled": false,
+                                            "position": "absolute",
+                                            "edgeOffsets": 266.78125,
+                                            "ParentId": "ae38606f-5610-4c7f-bf48-7a35700dc2f3",
+                                            "RelativeX": 73,
+                                            "RelativeY": 266.78125
+                                        },
+                                        "children": [],
+                                        "id": "0f424e86-6062-407e-ad22-43b2c6c58799",
+                                        "thunkableVersion": 265,
+                                        "name": "camera"
+                                    },
+                                    {
+                                        "type": "Image",
+                                        "translatedName": "Image",
+                                        "properties": {
+                                            "resizeMode": "contain",
+                                            "Height": 234,
+                                            "Width": 233,
+                                            "Visible": true,
+                                            "X": 73,
+                                            "Y": 25.78125,
+                                            "style": {
+                                                "marginTop": 0,
+                                                "marginBottom": 0,
+                                                "marginLeft": 0,
+                                                "marginRight": 0,
+                                                "paddingTop": 0,
+                                                "paddingBottom": 0,
+                                                "paddingLeft": 0,
+                                                "paddingRight": 0,
+                                                "position": "absolute",
+                                                "left": "38.13333333333333%",
+                                                "top": "12.710832083958021%",
+                                                "height": 234,
+                                                "flex": 0,
+                                                "width": 233,
+                                                "display": "flex",
+                                                "shadowColor": "rgba(255, 255, 255, 1)",
+                                                "scaledShadowOpacity": 100,
+                                                "shadowRadius": 0,
+                                                "shadowOffset": {
+                                                    "width": 0,
+                                                    "height": 0
+                                                }
+                                            },
+                                            "position": "absolute",
+                                            "edgeOffsets": 25.78125,
+                                            "ParentId": "ae38606f-5610-4c7f-bf48-7a35700dc2f3",
+                                            "RelativeX": 73,
+                                            "RelativeY": 25.78125
+                                        },
+                                        "children": [],
+                                        "id": "c637512e-97ce-4d54-b14a-625da851fb98",
+                                        "thunkableVersion": 265,
+                                        "name": "Image1"
+                                    }
+                                ],
+                                "id": "ae38606f-5610-4c7f-bf48-7a35700dc2f3",
+                                "thunkableVersion": 265,
+                                "name": "Photo Screen"
+                            },
+                            {
+                                "type": "Screen",
+                                "translatedName": "Screen",
+                                "reactType": "ViewWithProps",
+                                "properties": {
+                                    "Height": "Fill container",
+                                    "Width": "Fill container",
+                                    "Layout": "column",
+                                    "Justification": "center",
+                                    "Alignment": "center",
+                                    "Visible": true,
+                                    "style": {
+                                        "marginTop": 0,
+                                        "marginBottom": 0,
+                                        "marginLeft": 0,
+                                        "marginRight": 0,
+                                        "paddingTop": 0,
+                                        "paddingBottom": 0,
+                                        "paddingLeft": 0,
+                                        "paddingRight": 0,
+                                        "flex": 1,
+                                        "alignSelf": "stretch",
+                                        "flexDirection": "column",
+                                        "justifyContent": "center",
+                                        "alignItems": "center",
+                                        "display": "flex",
+                                        "borderRadius": 20
+                                    },
+                                    "ShowStatusBar": true,
+                                    "StatusBarStyle": "default",
+                                    "TranslucentStatusBar": false,
+                                    "StatusBarColor": "rgba(0,0,0,0.53)",
+                                    "TabNavigationOptions": {
+                                        "tabBarVisible": true
+                                    },
+                                    "ScreenOrientation": "portrait",
+                                    "DesignerHeight": 677,
+                                    "DesignerWidth": 375,
+                                    "ResponsiveWidth": 375,
+                                    "isSimple": true
+                                },
+                                "children": [
+                                    {
+                                        "type": "Button",
+                                        "translatedName": "Button",
+                                        "properties": {
+                                            "Text": "Untimed recording",
+                                            "TextColor": "#FFFFFF",
+                                            "FontSize": 18,
+                                            "BackgroundColor": "#2962FF",
+                                            "Height": 43,
+                                            "Width": 283,
+                                            "Visible": true,
+                                            "X": 33,
+                                            "Y": 387.375,
+                                            "style": {
+                                                "marginTop": 0,
+                                                "marginBottom": 0,
+                                                "marginLeft": 0,
+                                                "marginRight": 0,
+                                                "paddingTop": 0,
+                                                "paddingBottom": 0,
+                                                "paddingLeft": 0,
+                                                "paddingRight": 0,
+                                                "borderRadius": 75,
+                                                "position": "absolute",
+                                                "left": "14.933333333333334%",
+                                                "top": "61.37556221889056%",
+                                                "height": 43,
+                                                "flex": 0,
+                                                "width": 283,
+                                                "display": "flex",
+                                                "shadowColor": "rgba(255, 255, 255, 1)",
+                                                "scaledShadowOpacity": 100,
+                                                "shadowRadius": 0,
+                                                "shadowOffset": {
+                                                    "width": 0,
+                                                    "height": 0
+                                                }
+                                            },
+                                            "FontBold": false,
+                                            "FontItalic": false,
+                                            "Raised": false,
+                                            "Disabled": false,
+                                            "position": "absolute",
+                                            "edgeOffsets": 387.375,
+                                            "ParentId": "89536bbb-e6b8-48c0-8d4b-428d50423ca4",
+                                            "RelativeX": 33,
+                                            "RelativeY": 387.375
+                                        },
+                                        "children": [],
+                                        "id": "38a667e4-e767-44ce-9c06-be181fdd5460",
+                                        "thunkableVersion": 265,
+                                        "name": "untimed"
+                                    },
+                                    {
+                                        "type": "Button",
+                                        "translatedName": "Button",
+                                        "properties": {
+                                            "Text": "Record for 5 seconds",
+                                            "TextColor": "#FFFFFF",
+                                            "FontSize": 18,
+                                            "BackgroundColor": "#2962FF",
+                                            "Height": 48,
+                                            "Width": 283,
+                                            "Visible": true,
+                                            "X": 33,
+                                            "Y": 303.375,
+                                            "style": {
+                                                "marginTop": 0,
+                                                "marginBottom": 0,
+                                                "marginLeft": 0,
+                                                "marginRight": 0,
+                                                "paddingTop": 0,
+                                                "paddingBottom": 0,
+                                                "paddingLeft": 0,
+                                                "paddingRight": 0,
+                                                "borderRadius": 75,
+                                                "position": "absolute",
+                                                "left": "18.933333333333334%",
+                                                "top": "56.42803598200899%",
+                                                "height": 48,
+                                                "flex": 0,
+                                                "width": 283,
+                                                "display": "flex",
+                                                "shadowColor": "rgba(255, 255, 255, 1)",
+                                                "scaledShadowOpacity": 100,
+                                                "shadowRadius": 0,
+                                                "shadowOffset": {
+                                                    "width": 0,
+                                                    "height": 0
+                                                }
+                                            },
+                                            "FontBold": false,
+                                            "FontItalic": false,
+                                            "Raised": false,
+                                            "Disabled": false,
+                                            "position": "absolute",
+                                            "edgeOffsets": 303.375,
+                                            "ParentId": "89536bbb-e6b8-48c0-8d4b-428d50423ca4",
+                                            "RelativeX": 33,
+                                            "RelativeY": 303.375
+                                        },
+                                        "children": [],
+                                        "id": "bf052e72-47f1-427e-ab4e-b86bbd2431ea",
+                                        "thunkableVersion": 265,
+                                        "name": "timed"
+                                    },
+                                    {
+                                        "type": "Video",
+                                        "label": "Video",
+                                        "translatedName": "Video",
+                                        "properties": {
+                                            "Play": false,
+                                            "Height": 201,
+                                            "Width": 281,
+                                            "Visible": true,
+                                            "X": 33,
+                                            "Y": 69.375,
+                                            "position": "absolute",
+                                            "edgeOffsets": 69.375,
+                                            "style": {
+                                                "position": "absolute",
+                                                "left": "29.333333333333332%",
+                                                "top": "33.03973013493253%",
+                                                "height": 201,
+                                                "flex": 0,
+                                                "width": 281,
+                                                "display": "flex",
+                                                "shadowColor": "rgba(255, 255, 255, 1)",
+                                                "scaledShadowOpacity": 100,
+                                                "shadowRadius": 0,
+                                                "shadowOffset": {
+                                                    "width": 0,
+                                                    "height": 0
+                                                }
+                                            },
+                                            "ParentId": "89536bbb-e6b8-48c0-8d4b-428d50423ca4",
+                                            "RelativeX": 33,
+                                            "RelativeY": 69.375
+                                        },
+                                        "children": [],
+                                        "id": "9cc6a884-5555-485f-b167-ab7dcaa5dad4",
+                                        "thunkableVersion": 265,
+                                        "name": "Video1"
+                                    }
+                                ],
+                                "id": "89536bbb-e6b8-48c0-8d4b-428d50423ca4",
+                                "thunkableVersion": 265,
+                                "name": "Video Screen"
+                            }
+                        ],
+                        "id": "d363007b-3476-4b62-a24a-83cd9ec4b6bb",
+                        "thunkableVersion": 265,
+                        "name": "Drawer_Navigator1"
+                    }
+                ]
+            },
+            "componentStringLength": 11004,
+            "createdAt": "1684322799563",
+            "figmaComponents": {},
+            "description": null,
+            "email": "vfaywolfe@uri.edu",
+            "hash": "cb44b08dc00efc19efaff0fbfc1843bb9ef4f84c",
+            "icon": null,
+            "isArchiveProjectFileUsed": false,
+            "isHiddenFromPublicGallery": false,
+            "isLegacy": false,
+            "isOwner": true,
+            "isPublic": true,
+            "isQRCodeScanned": null,
+            "isLiveTesting": null,
+            "projectName": "Camera Blocks Original",
+            "settings": {
+                "teamId": null,
+                "appName": null,
+                "packageName": "edu.uri.vfaywolfe.camerablockscopy1",
+                "icon": null,
+                "autoIncrementVersion": true,
+                "ignoreNotchArea": false,
+                "notchAreaColor": null,
+                "androidVersionName": "1",
+                "androidVersionCode": 1,
+                "iosVersionNumber": "1",
+                "iosBuildNumber": "1",
+                "firebaseAPIKey": "",
+                "firebaseDatabaseURL": "",
+                "stripePublishableKeyTest": "",
+                "stripePublishableKeyLive": "",
+                "stripeAccountId": null,
+                "stripeTestMode": true,
+                "isPublic": true,
+                "description": null,
+                "mobileTutorial": null,
+                "pushNotificationAndroidAppId": null,
+                "pushNotificationIOSAppId": null,
+                "pushNotificationGeolocationEnabled": null,
+                "yandexAPIKey": "",
+                "imageRecognizerServerURL": "",
+                "imageRecognizerSubscriptionKey": "",
+                "cloudName": "",
+                "cloudinaryAPIKey": "",
+                "cloudinaryAPISecret": "",
+                "permissions": {
+                    "ios": {
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": "",
+                            "NSMicrophoneUsageDescription": ""
+                        }
+                    }
+                },
+                "googleMapAPIKeyAndroid": null,
+                "googleMapAPIKeyIOS": null,
+                "googleOAuthiOSClientID": null,
+                "googleOAuthiOSURLScheme": null,
+                "googleOAuthWebClientID": null,
+                "appleOAuthWebClientID": null,
+                "appleOAuthWebRedirectURI": null,
+                "admobAppIdIOS": null,
+                "admobAppIdAndroid": null,
+                "admobUserTrackingUsageDescription": null,
+                "__typename": "ProjectSettings"
+            },
+            "projectSettings": {
+                "teamId": null,
+                "appName": null,
+                "packageName": "edu.uri.vfaywolfe.camerablockscopy1",
+                "icon": null,
+                "autoIncrementVersion": true,
+                "ignoreNotchArea": false,
+                "notchAreaColor": null,
+                "androidVersionName": "1",
+                "androidVersionCode": 1,
+                "iosVersionNumber": "1",
+                "iosBuildNumber": "1",
+                "firebaseAPIKey": "",
+                "firebaseDatabaseURL": "",
+                "stripePublishableKeyTest": "",
+                "stripePublishableKeyLive": "",
+                "stripeAccountId": null,
+                "stripeTestMode": true,
+                "isPublic": true,
+                "description": null,
+                "mobileTutorial": null,
+                "pushNotificationAndroidAppId": null,
+                "pushNotificationIOSAppId": null,
+                "pushNotificationGeolocationEnabled": null,
+                "yandexAPIKey": "",
+                "imageRecognizerServerURL": "",
+                "imageRecognizerSubscriptionKey": "",
+                "cloudName": "",
+                "cloudinaryAPIKey": "",
+                "cloudinaryAPISecret": "",
+                "permissions": {
+                    "ios": {
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": "",
+                            "NSMicrophoneUsageDescription": ""
+                        }
+                    }
+                },
+                "googleMapAPIKeyAndroid": null,
+                "googleMapAPIKeyIOS": null,
+                "googleOAuthiOSClientID": null,
+                "googleOAuthiOSURLScheme": null,
+                "googleOAuthWebClientID": null,
+                "appleOAuthWebClientID": null,
+                "appleOAuthWebRedirectURI": null,
+                "admobAppIdIOS": null,
+                "admobAppIdAndroid": null,
+                "admobUserTrackingUsageDescription": null,
+                "__typename": "ProjectSettings"
+            },
+            "hasAdmob": false,
+            "hasBluetoothLowEnergy": null,
+            "hasPushNotification": false,
+            "hasAssistant": null,
+            "storageSize": "0.01",
+            "dataSourceLinks": [],
+            "localDataSources": [
                 {
-                    "line": 2,
-                    "column": 2
+                    "id": "0b5db6d7-3d2d-49bb-95a5-0eadd4f789a9",
+                    "dataSource": {
+                        "id": "53c8273d-0268-4fd5-994b-375d56918364",
+                        "name": "",
+                        "owner": "5b2263d834863022157690e8",
+                        "collections": [
+                            {
+                                "id": "10fa328e-3f26-4c9e-bca7-5a22e80ded93",
+                                "name": "Table 1",
+                                "label": "Table 1",
+                                "fields": [
+                                    {
+                                        "id": "ba3e0263-93eb-4b0d-9df0-6afde674f7a3",
+                                        "name": "column1",
+                                        "label": "Column 1",
+                                        "type": "STRING"
+                                    },
+                                    {
+                                        "id": "160c952b-bf38-44ae-a30b-f9da642a69c3",
+                                        "name": "column2",
+                                        "label": "Column 2",
+                                        "type": "NUMBER"
+                                    }
+                                ],
+                                "data": {
+                                    "edges": [
+                                        {
+                                            "cursor": "27fd866a-fc10-47ce-8f8a-5c7e0c6cd9c4",
+                                            "node": {
+                                                "id": "78b072a2-0a75-4cfc-893e-64cab228ee8d",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "ba3e0263-93eb-4b0d-9df0-6afde674f7a3",
+                                                        "value": "a"
+                                                    },
+                                                    {
+                                                        "fieldId": "160c952b-bf38-44ae-a30b-f9da642a69c3",
+                                                        "value": "1"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "2adce2d7-729e-49b7-b6dc-c4a59e98b07c",
+                                            "node": {
+                                                "id": "bd3a0885-729a-425e-94ab-5c2918c76a93",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "ba3e0263-93eb-4b0d-9df0-6afde674f7a3",
+                                                        "value": "b"
+                                                    },
+                                                    {
+                                                        "fieldId": "160c952b-bf38-44ae-a30b-f9da642a69c3",
+                                                        "value": "2"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "c0af25a1-16b7-4d25-8ef3-bef904445c0f",
+                                            "node": {
+                                                "id": "e0659429-f512-4e94-9108-58c587ea4627",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "ba3e0263-93eb-4b0d-9df0-6afde674f7a3",
+                                                        "value": "c"
+                                                    },
+                                                    {
+                                                        "fieldId": "160c952b-bf38-44ae-a30b-f9da642a69c3",
+                                                        "value": "3"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "configuration": {
+                            "id": "d72ad500-8730-4d2b-92b2-10582c4c9475",
+                            "name": "",
+                            "owner": "5b2263d834863022157690e8",
+                            "type": "LOCAL"
+                        }
+                    }
+                },
+                {
+                    "id": "fef202e5-e052-46ea-a58a-6b22534a2cd5",
+                    "dataSource": {
+                        "name": "Jane's Marvelous Site",
+                        "id": "f481c20a-ecb0-4699-b413-85238fcb8a31",
+                        "owner": "6245bd75c235e00572994805",
+                        "collections": [
+                            {
+                                "fields": [
+                                    {
+                                        "label": "Profile Picture",
+                                        "name": "11ba04209227b299a6cf35c96793c5d5",
+                                        "type": "IMAGE",
+                                        "id": "88b67788-fc6c-43b7-b07e-4f869c0a4d9a"
+                                    },
+                                    {
+                                        "label": "Bio",
+                                        "name": "865d84b53030ddb2a1498621f2b77d98",
+                                        "type": "PARAGRAPH",
+                                        "id": "44d70514-3ed5-4942-a02d-311786417b95"
+                                    },
+                                    {
+                                        "label": "Bio Summary",
+                                        "name": "e60abfae8a33dcb17a326cdab7b0176f",
+                                        "type": "STRING",
+                                        "id": "a9941fda-6f86-45f5-9e20-d3d614411972"
+                                    },
+                                    {
+                                        "label": "Job Title",
+                                        "name": "e1aa66039af66e58d304d94849bf5582",
+                                        "type": "STRING",
+                                        "id": "2c447bde-2f8a-4bd7-94c0-e561fd5207b3"
+                                    },
+                                    {
+                                        "label": "Email",
+                                        "name": "fd13884f6bc1e6ef38c33bb3f787cab1",
+                                        "type": "STRING",
+                                        "id": "e9f4f8c0-6c3a-4cd2-8ebb-b2d9457b6e95"
+                                    },
+                                    {
+                                        "label": "Phone Number",
+                                        "name": "b777ae75a35c42d08137e0ea5da5d7f2",
+                                        "type": "STRING",
+                                        "id": "3a19da25-5ae4-4e49-8c73-0994905bff9b"
+                                    },
+                                    {
+                                        "label": "Twitter Link",
+                                        "name": "89d3fa668d9fdb30a710af7127b4ae3d",
+                                        "type": "STRING",
+                                        "id": "d2ff948f-1396-463e-8623-7d8e1e87ecd4"
+                                    },
+                                    {
+                                        "label": "Facebook Link",
+                                        "name": "55f47ed61703749c88e9f7a2bd84c5fc",
+                                        "type": "STRING",
+                                        "id": "f1014f3a-06b6-4e20-bd05-17911b602e6d"
+                                    },
+                                    {
+                                        "label": "Name",
+                                        "name": "899908d46c1eb74f5e1524aa9cf64e08",
+                                        "type": "STRING",
+                                        "id": "128f9e06-ea9e-4f72-b7d8-9fbdd8a397d1"
+                                    },
+                                    {
+                                        "label": "Slug",
+                                        "name": "e86ddfb9899f5db436689386ff57db3e",
+                                        "type": "STRING",
+                                        "id": "8a23448d-2e0b-4c46-90e4-65fd6f355c41"
+                                    },
+                                    {
+                                        "label": "Archived",
+                                        "name": "216e9b56bab1f7901aedd3fbc574934e",
+                                        "type": "BOOL",
+                                        "id": "0ec7d96a-05ef-41ee-8812-9e8f72b126b7"
+                                    },
+                                    {
+                                        "label": "Draft",
+                                        "name": "a3eddbb719f13e27cc795a1fa63b5677",
+                                        "type": "BOOL",
+                                        "id": "a65d21f6-ab2e-484b-b796-dd2384a0f44c"
+                                    },
+                                    {
+                                        "label": "Created On",
+                                        "name": "033a97268704aebd10cf9af0930b4f61",
+                                        "type": "DATE",
+                                        "id": "1a53d9a1-7979-4457-a7d8-a81fbb473e3b"
+                                    },
+                                    {
+                                        "label": "Updated On",
+                                        "name": "3578e0baf4839589573e68cc4d6db2ee",
+                                        "type": "DATE",
+                                        "id": "46af38ce-77fd-4189-b5cc-5d3ac31a37c5"
+                                    },
+                                    {
+                                        "label": "Published On",
+                                        "name": "f5fb19d4b6994078168f699d3be821cf",
+                                        "type": "DATE",
+                                        "id": "a4f02436-7271-47e1-a7cb-09b0e08fe783"
+                                    },
+                                    {
+                                        "label": "Created By",
+                                        "name": "f1404c8fde893fc48af8adfe3b3b3470",
+                                        "type": "STRING",
+                                        "id": "9c1399b5-4a89-4562-9bed-d0d69a1f52f7"
+                                    },
+                                    {
+                                        "label": "Updated By",
+                                        "name": "699fd3eb436fa4564a213a4f79f1f60f",
+                                        "type": "STRING",
+                                        "id": "c6a7a91b-7873-4b0f-b3bb-d511340e45af"
+                                    },
+                                    {
+                                        "label": "Published By",
+                                        "name": "4977b880f2493f371a13320169ad74cc",
+                                        "type": "STRING",
+                                        "id": "586fb93f-ee8c-4846-9716-4a1164025c2f"
+                                    }
+                                ],
+                                "id": "37dffb97-7908-4dd3-aec5-4f5298acc0b6",
+                                "data": {
+                                    "edges": [
+                                        {
+                                            "cursor": "1e0d612c-3956-4732-9516-07dd442c8603",
+                                            "node": {
+                                                "id": "702e441e-bf6a-4dfb-9dd0-843a2d617941",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "88b67788-fc6c-43b7-b07e-4f869c0a4d9a",
+                                                        "value": "https://blobs.gitbook.com/spaces%2F-LAn5scXl2uqUJUOqkJo%2Favatar.png?generation=1550623841658822&alt=media"
+                                                    },
+                                                    {
+                                                        "fieldId": "44d70514-3ed5-4942-a02d-311786417b95",
+                                                        "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris faucibus\n vitae elit vel auctor. Aliquam justo tortor, mattis sed lorem quis, gravida\n vestibulum odio. Nullam ac tempus sem, quis scelerisque lectus. Duis eros\n libero, sodales a malesuada eget, pharetra in nibh. Proin luctus felis vitae\n lacus tincidunt, sit amet fermentum augue ultrices. Mauris nibh urna, volutpat\n vitae mauris lobortis, finibus venenatis metus. Praesent eget metus mi. Ut sed\n magna eu orci venenatis egestas. Fusce id."
+                                                    },
+                                                    {
+                                                        "fieldId": "a9941fda-6f86-45f5-9e20-d3d614411972",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "2c447bde-2f8a-4bd7-94c0-e561fd5207b3",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "e9f4f8c0-6c3a-4cd2-8ebb-b2d9457b6e95",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "3a19da25-5ae4-4e49-8c73-0994905bff9b",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "d2ff948f-1396-463e-8623-7d8e1e87ecd4",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "f1014f3a-06b6-4e20-bd05-17911b602e6d",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "128f9e06-ea9e-4f72-b7d8-9fbdd8a397d1",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "8a23448d-2e0b-4c46-90e4-65fd6f355c41",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "0ec7d96a-05ef-41ee-8812-9e8f72b126b7",
+                                                        "value": "true"
+                                                    },
+                                                    {
+                                                        "fieldId": "a65d21f6-ab2e-484b-b796-dd2384a0f44c",
+                                                        "value": "true"
+                                                    },
+                                                    {
+                                                        "fieldId": "1a53d9a1-7979-4457-a7d8-a81fbb473e3b",
+                                                        "value": ""
+                                                    },
+                                                    {
+                                                        "fieldId": "46af38ce-77fd-4189-b5cc-5d3ac31a37c5",
+                                                        "value": ""
+                                                    },
+                                                    {
+                                                        "fieldId": "a4f02436-7271-47e1-a7cb-09b0e08fe783",
+                                                        "value": ""
+                                                    },
+                                                    {
+                                                        "fieldId": "9c1399b5-4a89-4562-9bed-d0d69a1f52f7",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "c6a7a91b-7873-4b0f-b3bb-d511340e45af",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "586fb93f-ee8c-4846-9716-4a1164025c2f",
+                                                        "value": "Thunkable"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "64a7c832-337f-4259-abb2-a2aff0261561",
+                                            "node": {
+                                                "id": "90e5e9f4-fd17-42ee-b9a9-20f2e41dbab0",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "88b67788-fc6c-43b7-b07e-4f869c0a4d9a",
+                                                        "value": "https://blobs.gitbook.com/spaces%2F-LAn5scXl2uqUJUOqkJo%2Favatar.png?generation=1550623841658822&alt=media"
+                                                    },
+                                                    {
+                                                        "fieldId": "44d70514-3ed5-4942-a02d-311786417b95",
+                                                        "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris faucibus\n vitae elit vel auctor. Aliquam justo tortor, mattis sed lorem quis, gravida\n vestibulum odio. Nullam ac tempus sem, quis scelerisque lectus. Duis eros\n libero, sodales a malesuada eget, pharetra in nibh. Proin luctus felis vitae\n lacus tincidunt, sit amet fermentum augue ultrices. Mauris nibh urna, volutpat\n vitae mauris lobortis, finibus venenatis metus. Praesent eget metus mi. Ut sed\n magna eu orci venenatis egestas. Fusce id."
+                                                    },
+                                                    {
+                                                        "fieldId": "a9941fda-6f86-45f5-9e20-d3d614411972",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "2c447bde-2f8a-4bd7-94c0-e561fd5207b3",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "e9f4f8c0-6c3a-4cd2-8ebb-b2d9457b6e95",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "3a19da25-5ae4-4e49-8c73-0994905bff9b",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "d2ff948f-1396-463e-8623-7d8e1e87ecd4",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "f1014f3a-06b6-4e20-bd05-17911b602e6d",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "128f9e06-ea9e-4f72-b7d8-9fbdd8a397d1",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "8a23448d-2e0b-4c46-90e4-65fd6f355c41",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "0ec7d96a-05ef-41ee-8812-9e8f72b126b7",
+                                                        "value": "true"
+                                                    },
+                                                    {
+                                                        "fieldId": "a65d21f6-ab2e-484b-b796-dd2384a0f44c",
+                                                        "value": "true"
+                                                    },
+                                                    {
+                                                        "fieldId": "1a53d9a1-7979-4457-a7d8-a81fbb473e3b",
+                                                        "value": ""
+                                                    },
+                                                    {
+                                                        "fieldId": "46af38ce-77fd-4189-b5cc-5d3ac31a37c5",
+                                                        "value": ""
+                                                    },
+                                                    {
+                                                        "fieldId": "a4f02436-7271-47e1-a7cb-09b0e08fe783",
+                                                        "value": ""
+                                                    },
+                                                    {
+                                                        "fieldId": "9c1399b5-4a89-4562-9bed-d0d69a1f52f7",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "c6a7a91b-7873-4b0f-b3bb-d511340e45af",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "586fb93f-ee8c-4846-9716-4a1164025c2f",
+                                                        "value": "Thunkable"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "1f191061-c91f-4442-bb19-60adb70a5945",
+                                            "node": {
+                                                "id": "f2487e19-3f29-4be4-aad4-3a68181c2ac7",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "88b67788-fc6c-43b7-b07e-4f869c0a4d9a",
+                                                        "value": "https://blobs.gitbook.com/spaces%2F-LAn5scXl2uqUJUOqkJo%2Favatar.png?generation=1550623841658822&alt=media"
+                                                    },
+                                                    {
+                                                        "fieldId": "44d70514-3ed5-4942-a02d-311786417b95",
+                                                        "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris faucibus\n vitae elit vel auctor. Aliquam justo tortor, mattis sed lorem quis, gravida\n vestibulum odio. Nullam ac tempus sem, quis scelerisque lectus. Duis eros\n libero, sodales a malesuada eget, pharetra in nibh. Proin luctus felis vitae\n lacus tincidunt, sit amet fermentum augue ultrices. Mauris nibh urna, volutpat\n vitae mauris lobortis, finibus venenatis metus. Praesent eget metus mi. Ut sed\n magna eu orci venenatis egestas. Fusce id."
+                                                    },
+                                                    {
+                                                        "fieldId": "a9941fda-6f86-45f5-9e20-d3d614411972",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "2c447bde-2f8a-4bd7-94c0-e561fd5207b3",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "e9f4f8c0-6c3a-4cd2-8ebb-b2d9457b6e95",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "3a19da25-5ae4-4e49-8c73-0994905bff9b",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "d2ff948f-1396-463e-8623-7d8e1e87ecd4",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "f1014f3a-06b6-4e20-bd05-17911b602e6d",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "128f9e06-ea9e-4f72-b7d8-9fbdd8a397d1",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "8a23448d-2e0b-4c46-90e4-65fd6f355c41",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "0ec7d96a-05ef-41ee-8812-9e8f72b126b7",
+                                                        "value": "true"
+                                                    },
+                                                    {
+                                                        "fieldId": "a65d21f6-ab2e-484b-b796-dd2384a0f44c",
+                                                        "value": "true"
+                                                    },
+                                                    {
+                                                        "fieldId": "1a53d9a1-7979-4457-a7d8-a81fbb473e3b",
+                                                        "value": ""
+                                                    },
+                                                    {
+                                                        "fieldId": "46af38ce-77fd-4189-b5cc-5d3ac31a37c5",
+                                                        "value": ""
+                                                    },
+                                                    {
+                                                        "fieldId": "a4f02436-7271-47e1-a7cb-09b0e08fe783",
+                                                        "value": ""
+                                                    },
+                                                    {
+                                                        "fieldId": "9c1399b5-4a89-4562-9bed-d0d69a1f52f7",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "c6a7a91b-7873-4b0f-b3bb-d511340e45af",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "586fb93f-ee8c-4846-9716-4a1164025c2f",
+                                                        "value": "Thunkable"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "228b59e2-2ee7-48a1-bbc1-5718b690ee80",
+                                            "node": {
+                                                "id": "1bec99aa-8ba9-42fb-9a7d-4ba60ace5336",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "88b67788-fc6c-43b7-b07e-4f869c0a4d9a",
+                                                        "value": "https://blobs.gitbook.com/spaces%2F-LAn5scXl2uqUJUOqkJo%2Favatar.png?generation=1550623841658822&alt=media"
+                                                    },
+                                                    {
+                                                        "fieldId": "44d70514-3ed5-4942-a02d-311786417b95",
+                                                        "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris faucibus\n vitae elit vel auctor. Aliquam justo tortor, mattis sed lorem quis, gravida\n vestibulum odio. Nullam ac tempus sem, quis scelerisque lectus. Duis eros\n libero, sodales a malesuada eget, pharetra in nibh. Proin luctus felis vitae\n lacus tincidunt, sit amet fermentum augue ultrices. Mauris nibh urna, volutpat\n vitae mauris lobortis, finibus venenatis metus. Praesent eget metus mi. Ut sed\n magna eu orci venenatis egestas. Fusce id."
+                                                    },
+                                                    {
+                                                        "fieldId": "a9941fda-6f86-45f5-9e20-d3d614411972",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "2c447bde-2f8a-4bd7-94c0-e561fd5207b3",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "e9f4f8c0-6c3a-4cd2-8ebb-b2d9457b6e95",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "3a19da25-5ae4-4e49-8c73-0994905bff9b",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "d2ff948f-1396-463e-8623-7d8e1e87ecd4",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "f1014f3a-06b6-4e20-bd05-17911b602e6d",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "128f9e06-ea9e-4f72-b7d8-9fbdd8a397d1",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "8a23448d-2e0b-4c46-90e4-65fd6f355c41",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "0ec7d96a-05ef-41ee-8812-9e8f72b126b7",
+                                                        "value": "true"
+                                                    },
+                                                    {
+                                                        "fieldId": "a65d21f6-ab2e-484b-b796-dd2384a0f44c",
+                                                        "value": "true"
+                                                    },
+                                                    {
+                                                        "fieldId": "1a53d9a1-7979-4457-a7d8-a81fbb473e3b",
+                                                        "value": ""
+                                                    },
+                                                    {
+                                                        "fieldId": "46af38ce-77fd-4189-b5cc-5d3ac31a37c5",
+                                                        "value": ""
+                                                    },
+                                                    {
+                                                        "fieldId": "a4f02436-7271-47e1-a7cb-09b0e08fe783",
+                                                        "value": ""
+                                                    },
+                                                    {
+                                                        "fieldId": "9c1399b5-4a89-4562-9bed-d0d69a1f52f7",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "c6a7a91b-7873-4b0f-b3bb-d511340e45af",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "586fb93f-ee8c-4846-9716-4a1164025c2f",
+                                                        "value": "Thunkable"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "393ca65d-f99b-41d3-a3c9-8dff8b2f10e5",
+                                            "node": {
+                                                "id": "4d24b2b7-5594-498a-ba91-d09edd822f94",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "88b67788-fc6c-43b7-b07e-4f869c0a4d9a",
+                                                        "value": "https://blobs.gitbook.com/spaces%2F-LAn5scXl2uqUJUOqkJo%2Favatar.png?generation=1550623841658822&alt=media"
+                                                    },
+                                                    {
+                                                        "fieldId": "44d70514-3ed5-4942-a02d-311786417b95",
+                                                        "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris faucibus\n vitae elit vel auctor. Aliquam justo tortor, mattis sed lorem quis, gravida\n vestibulum odio. Nullam ac tempus sem, quis scelerisque lectus. Duis eros\n libero, sodales a malesuada eget, pharetra in nibh. Proin luctus felis vitae\n lacus tincidunt, sit amet fermentum augue ultrices. Mauris nibh urna, volutpat\n vitae mauris lobortis, finibus venenatis metus. Praesent eget metus mi. Ut sed\n magna eu orci venenatis egestas. Fusce id."
+                                                    },
+                                                    {
+                                                        "fieldId": "a9941fda-6f86-45f5-9e20-d3d614411972",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "2c447bde-2f8a-4bd7-94c0-e561fd5207b3",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "e9f4f8c0-6c3a-4cd2-8ebb-b2d9457b6e95",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "3a19da25-5ae4-4e49-8c73-0994905bff9b",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "d2ff948f-1396-463e-8623-7d8e1e87ecd4",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "f1014f3a-06b6-4e20-bd05-17911b602e6d",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "128f9e06-ea9e-4f72-b7d8-9fbdd8a397d1",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "8a23448d-2e0b-4c46-90e4-65fd6f355c41",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "0ec7d96a-05ef-41ee-8812-9e8f72b126b7",
+                                                        "value": "true"
+                                                    },
+                                                    {
+                                                        "fieldId": "a65d21f6-ab2e-484b-b796-dd2384a0f44c",
+                                                        "value": "true"
+                                                    },
+                                                    {
+                                                        "fieldId": "1a53d9a1-7979-4457-a7d8-a81fbb473e3b",
+                                                        "value": ""
+                                                    },
+                                                    {
+                                                        "fieldId": "46af38ce-77fd-4189-b5cc-5d3ac31a37c5",
+                                                        "value": ""
+                                                    },
+                                                    {
+                                                        "fieldId": "a4f02436-7271-47e1-a7cb-09b0e08fe783",
+                                                        "value": ""
+                                                    },
+                                                    {
+                                                        "fieldId": "9c1399b5-4a89-4562-9bed-d0d69a1f52f7",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "c6a7a91b-7873-4b0f-b3bb-d511340e45af",
+                                                        "value": "Thunkable"
+                                                    },
+                                                    {
+                                                        "fieldId": "586fb93f-ee8c-4846-9716-4a1164025c2f",
+                                                        "value": "Thunkable"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                },
+                                "name": "61969d54579e420eaacb69d7",
+                                "label": "Team Members"
+                            }
+                        ],
+                        "configuration": {
+                            "owner": "6245bd75c235e00572994805",
+                            "name": "Jane's Marvelous Site",
+                            "id": "b931535f-72b7-4fb0-9413-ffef848feb14",
+                            "type": "LOCAL",
+                            "originalDatasourceId": "63a1c7fe076dc602193474a6"
+                        }
+                    }
                 }
             ],
-            "path": [
-                "project"
+            "customProperties": [],
+            "appId": "3a98a2d4d91c50731e81a8228eb1475272b678e571e94e6c673a94e58a0857bd",
+            "modules": [],
+            "usesDragDropUi": true,
+            "totalCopy": "0",
+            "totalStar": "0",
+            "starAction": "star",
+            "variables": {},
+            "webAppSettings": null,
+            "webCompanionSettings": {
+                "customDomain": null,
+                "icon": null,
+                "webAppId": null,
+                "__typename": "WebCompanionSettings"
+            },
+            "frontendProperties": {
+                "componentTreeCollapsedMap": null,
+                "__typename": "FrontendProperties"
+            },
+            "defaultDesignerDevice": "PHONE",
+            "defaultDesignerOrientation": "PORTRAIT",
+            "readOnly": false,
+            "shares": [],
+            "versions": [],
+            "schemaVersion": 2,
+            "organization": null,
+            "projectSnapshotsMetaData": [
+                {
+                    "snapshot": null,
+                    "title": "May 17, 2023 11:26 AM",
+                    "createdAt": "1684324671267",
+                    "isCurrentVersion": null,
+                    "numberOfScreens": 2,
+                    "isAutoSnapshot": true,
+                    "archiveFilename": "project-2023-05-17T11:26:41.304Z",
+                    "creator": null,
+                    "__typename": "SnapshotMetaData"
+                },
+                {
+                    "snapshot": null,
+                    "title": "May 17, 2023 11:57 AM",
+                    "createdAt": "1686168153526",
+                    "isCurrentVersion": null,
+                    "numberOfScreens": 2,
+                    "isAutoSnapshot": true,
+                    "archiveFilename": "project-2023-05-17T11:57:51.456Z",
+                    "creator": null,
+                    "__typename": "SnapshotMetaData"
+                },
+                {
+                    "snapshot": null,
+                    "title": "June 7, 2023 8:02 PM",
+                    "createdAt": "1686999190428",
+                    "isCurrentVersion": null,
+                    "numberOfScreens": 2,
+                    "isAutoSnapshot": true,
+                    "archiveFilename": "project-2023-06-07T20:02:33.652Z",
+                    "creator": null,
+                    "__typename": "SnapshotMetaData"
+                },
+                {
+                    "snapshot": null,
+                    "title": "June 17, 2023 10:53 AM",
+                    "createdAt": "1687008114020",
+                    "isCurrentVersion": null,
+                    "numberOfScreens": 2,
+                    "isAutoSnapshot": true,
+                    "archiveFilename": "project-2023-06-17T10:53:10.568Z",
+                    "creator": null,
+                    "__typename": "SnapshotMetaData"
+                },
+                {
+                    "snapshot": null,
+                    "title": "June 17, 2023 1:21 PM",
+                    "createdAt": "1687011916388",
+                    "isCurrentVersion": null,
+                    "numberOfScreens": 2,
+                    "isAutoSnapshot": true,
+                    "archiveFilename": "project-2023-06-17T13:21:54.182Z",
+                    "creator": null,
+                    "__typename": "SnapshotMetaData"
+                }
             ],
-            "extensions": {
-                "code": "INTERNAL_SERVER_ERROR"
-            }
-        }
-    ],
-    "data": {
-        "project": null,
+            "projectSnapshotParentId": null,
+            "projectSnapshotParent": null,
+            "updatedAt": "1687011916388",
+            "username": "vfaywolfe1o",
+            "__typename": "Project"
+        },
         "user": {
             "id": "6245bd75c235e00572994805",
             "__typename": "User"
