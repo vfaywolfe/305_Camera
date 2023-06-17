@@ -1,0 +1,14 @@
+when camera.Click
+    do set Image1's Picture to photo
+
+when photo library.Click
+    do set Image1's Picture to photo from photo library
+
+when describe.Click
+    do set Description Label's Text from photo library to description of image from Image1's Picture
+
+when scan.Click
+    do set Description Label's Text to barcode scanned using back camera
+
+when upload.Click
+    do set Description Label's Text to url from uploaded file Image1's Picture
